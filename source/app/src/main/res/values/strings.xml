@@ -4,12 +4,53 @@
     <string name="title_activity_acitivity_splash_screen">acitivity_splash_screen</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
-    <string name="title_activity_configuracoes">Settings</string>
+
+    <string name="title_activity_menu">menu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="open_drawer">Abrir</string>
+    <string name="close_drawer">Fechar</string>
+    <string name="adiconealimentosalmoco">Adicione os alimentos que você cosumiu no almoço</string>
+    <string name="adiconealimentoscafe">Adicione os alimentos que você cosumiu no café da manhã</string>
+    <string name="adiconealimentosjanta">Adicione os alimentos que você cosumiu na janta</string>
+
+    <!-- General -->
+    <string name="pedometro_preferences">Referências do Medidor</string>
+    <string name="pedometro_preferences_starttracking">pedometro_preferences_starttracking</string>
+
+    <!--ExerciciosActivity -->
+    <string name="activityhome_latitudelongitude">latitude: %1$f longitude: %2$f</string>
+    <string name="activityhome_warntracking">Iniciando percurso…</string>
+    <string name="activityhome_warntrackingpaused">Você pausou o percurso! Clique no botão da barra superior para ver os seus resultados</string>
+
+    <!--MeasurementActivity-->
+    <string name="measurementactivity_title">Resultados</string>
+    <string name="measurementactivity_today">Hoje</string>
+    <string name="measurementactivity_week">Esta Semana</string>
+
+    <!--MeasurementDetailFragment-->
+    <string name="measurementdetailfragment_measuredistance">Distância: %1$.2f Km</string>
+    <string name="measurementdetailfragment_measuretime">Tempo: %1$.2f Horas</string>
+    <string name="measurementdetailfragment_measureaveragespeed">Velocidade: %1$.2f km/h</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="title_activity_config">Configurações</string>
+
+    <!--Strings para Botão de Questões-->
+    <string name="Proxima">Próxima</string>
+
 
     <!-- Strings related to Settings -->
 
     <!-- Example General settings -->
-    <string name="pref_header_general">General</string>
+    <string name="pref_header_general">Geral</string>
 
     <string name="pref_title_social_recommendations">Enable social recommendations</string>
     <string name="pref_description_social_recommendations">Recommendations for people to contact
@@ -36,12 +77,12 @@
 
     <string name="pref_title_sync_frequency">Sync frequency</string>
     <string-array name="pref_sync_frequency_titles">
-        <item>15 minutes</item>
-        <item>30 minutes</item>
-        <item>1 hour</item>
-        <item>3 hours</item>
-        <item>6 hours</item>
-        <item>Never</item>
+        <item>15 minutos</item>
+        <item>30 minutos</item>
+        <item>1 hora</item>
+        <item>3 horas</item>
+        <item>6 horas</item>
+        <item>Nunca</item>
     </string-array>
     <string-array name="pref_sync_frequency_values">
         <item>15</item>
@@ -53,9 +94,9 @@
     </string-array>
 
     <string-array name="list_preference_entries">
-        <item>Entry 1</item>
-        <item>Entry 2</item>
-        <item>Entry 3</item>
+        <item>Entrada 1</item>
+        <item>Entrada 2</item>
+        <item>Entrada 3</item>
     </string-array>
 
     <string-array name="list_preference_entry_values">
@@ -66,15 +107,1011 @@
 
     <string-array name="multi_select_list_preference_default_value" />
 
-    <string name="pref_title_system_sync_settings">System sync settings</string>
+    <string name="pref_title_system_sync_settings">Configurações da Sincronização do Sistema</string>
 
     <!-- Example settings for Notifications -->
-    <string name="pref_header_notifications">Notifications</string>
+    <string name="pref_header_notifications">Notificações</string>
 
-    <string name="pref_title_new_message_notifications">New message notifications</string>
+    <string name="pref_title_new_message_notifications">Habilitar </string>
 
-    <string name="pref_title_ringtone">Ringtone</string>
-    <string name="pref_ringtone_silent">Silent</string>
+    <string name="pref_title_ringtone">Toques</string>
+    <string name="pref_ringtone_silent">Silencioso</string>
 
-    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="pref_title_vibrate">Vibrar</string>
+    <string name="title_activity_configuracoes">Configurações</string>
+
+    <!-- Nomes das Matérias -->
+    <string name="gramatica">Gramática</string>
+    <string name="literatura">Literatura</string>
+    <string name="ingles">Inglês</string>
+    <string name="espanhol">Espanhol</string>
+    <string name="matematica">Matemática</string>
+    <string name="quimica">Química</string>
+    <string name="biologia">Biologia</string>
+    <string name="fisica">Física</string>
+    <string name="historia">História</string>
+    <string name="geografia">Geografia</string>
+    <string name="atualidades">Atualidades</string>
+
+    <!-- Configuração da Notificação-->
+    <string name="popup">Pop-Ups</string>
+
+    <!-- Dias da Semana -->
+    <string name="segunda">Segunda</string>
+    <string name="terca">Terça</string>
+    <string name="quarta">Quarta</string>
+    <string name="quinta">Quinta</string>
+    <string name="sexta">Sexta</string>
+    <string name="sabado">Sábado</string>
+
+    <!-- TEORIA POR MATÉRIA -->
+
+    <!-- Gramatica -->
+    <string name="coesao">
+        <![CDATA[
+            COESÃO\n
+
+            \t\tA coesão textual condiz com a correta construção de um texto no quesito gramatical, em que foca-se na utilização de termos corretos que tragam uma devida ligação entre frases, períodos e parágrafos; por isso, essa matéria tem como objetivo melhorar,por intermédio de regras, a escrita gramaticalmente.\n\n
+
+            Mecanismos de Coesão\n
+            \t\tAnáfora: retoma um termo utilizado anterior, através de sinônimos ou de pronomes.\n
+
+            \t\tCatáfora: antecipa uma expressão que será utilizada logo após no texto.\n\n
+
+            Regras:\n
+
+            \t\tReferência\n
+            \t\t\t\tPessoal: utilização de pronomes pessoais\n
+            \t\t\t\tDemonstrativa: utilização de pronomes demonstrativos e advérbios\n
+            \t\t\t\tComparativa: utilização de semelhanças para retomar.\n\n
+
+            \t\tSubstituição: a reposição de um termo por um semelhante para evitar repetições
+
+            \t\tElipse: dentro de um contexto, um termo a ser retomado, pode ser omitido sem a perda do sentido
+
+            \t\tConjunção: é um termo que estabelece ligação entre duas orações (frases com verbo)\n\n\n
+
+            COERÊNCIA\n\n
+            \t\tA Coerência é a relação lógica das ideias de um texto que decorre da sua argumentação - resultado especialmente dos conhecimentos do transmissor da mensagem.\n
+
+            \t\tUm texto contraditório e redundante ou cujas ideias iniciadas não são concluídas, é um texto incoerente. A incoerência compromete a clareza do discurso, a sua fluência e a eficácia da leitura.\n
+
+            \t\tAssim a incoerência não é só uma questão de conhecimento, decorre também do uso de tempos verbais e da emissão de ideias contrárias.\n
+        ]]>
+    </string>
+
+    <string name="grmatica_normativa">
+        <![CDATA[
+            \t\tA gramática normativa é aquela que prescreve as regras, normas gramaticais de uma língua. Ela admite apenas uma forma correta para a realização da língua, tratando as variações como erros gramaticais. Atualmente é muito criticada pelos gramáticos, pois já se admitem outras gramáticas como a descritiva, a gerativa, etc.\n
+            \t\tA Gramática Normativa toma como base as regras gramaticais tradicionais e o  uso da língua por dialetos de prestígio como por exemplo obras literárias consagradas, textos científicos, discursos formais, etc. As variedades linguísticas faladas são tratadas como desvio da norma até que sejam dicionarizadas e oficialmente acrescentadas às regras gramaticais daquela língua.\n
+            \t\tEstuda a Fonologia através da ortoépia (estudo da pronúncia correta dos vocábulos), da prosódia (determinação da sílaba tônica) e da ortografia (representação correta da língua escrita)\n
+            \t\tNa Morfologia estuda a forma dos vocábulos, as classes de palavras e as classes gramaticais.Por fim, na Sintaxe estuda a relação entre as palavras de uma oração ou relação entre as orações de um período a partir de regras pré-determinadas com relação à concordância, à regência e à colocação pronominal.
+        ]]>
+    </string>
+
+    <string name="ortografia">
+        <![CDATA[
+            \t\tA ortografia se caracteriza por estabelecer padrões para a forma escrita das palavras. Essa escrita está relacionada tanto a critérios etimológicos (ligados à origem das palavras) quanto fonológicos (ligados aos fonemas representados). É importante compreender que a ortografia é fruto de uma convenção. A forma de grafar as palavras é produto de acordos ortográficos que envolvem os diversos países em que a língua portuguesa é oficial. A melhor maneira de treinar a ortografia é ler, escrever e consultar o dicionário sempre que houver dúvida.\n\n\n
+
+           EMPREGO DAS LETRAS K,W E Y\n\n
+            Utilizam-se nos seguintes casos:\n
+            \t\ta) Em antropônimos originários de outras línguas e seus derivados.\n
+
+            \t\t\t\tExemplos: Kant, kantismo; Darwin, darwinismo; Taylor, taylorista.\n\n
+
+            \t\tb) Em topônimos originários de outras línguas e seus derivados.\n
+
+            \t\t\t\tExemplos: Kuwait, kuwaitiano.\n\n
+
+            \t\tc) Em siglas, símbolos, e mesmo em palavras adotadas como unidades de medida de curso internacional.\n
+
+            \t\t\t\tExemplos: K (Potássio), W (West), kg (quilograma), km (quilômetro), Watt.
+        ]]>
+    </string>
+
+    <!-- Literatura -->
+
+    <string name="romantismo">
+        <![CDATA[
+        ROMANTISMO BRASILEIRO\n
+            \t\tAlém das características do Romantismo europeu, o Romantismo brasileiro apresenta uma característica peculiar: o surto nacionalista gerado pela Independência do Brasil e a preocupação dos poetas e escritores com o passado nacional e com nossa identidade histórica e cultural. São três as gerações românticas brasileiras:\n\n
+
+        \t\tPrimeira geração: Possui forte apelo nacionalista e indianista. O índio é o substituto nacional para o cavaleiro medieval europeu. O indígena retratado nestas obras apresenta forte influência cultural do branco cristão. O cenário é o natural, colorido, nativo e pitoresco. Principais autores: Gonçalves de Magalhães, Gonçalves Dias.\n
+        \t\tSegunda geração: É o ultra-romantismo, onde o "mal do século" foi difundido. Cultivado na Universidade do Largo São Francisco. Retrata as reuniões regadas a vinho, cerveja e éter, geralmente em cemitérios ou em repúblicas. Marcante epicurismo, pessimismo, paisagens tumulares, o exagero do subjetivismo e do pessimismo e os poetas que morreram adolescentes. Principais autores: Álvares de Azevedo, Casimiro de Abreu, Junqueira Freire e Fagundes Varela\n
+        \t\tTerceira geração: Chamada de Poesia Condoreira, onde o poeta se mostra rebelde diante de seu momento histórico, reagindo com inconformidade e querendo atitudes reformistas. O condor, pássaro que voa alto, expressa os ideais libertários dos poetas. É marcante o escapismo, os estilos dramático, pomposo e violento, o uso de hipérboles e apóstrofes. Principais autores: Souzândrade e Castro Alves, conhecido como "o poeta dos escravos", pois apoiava a abolição e retrata o sofrimento dos escravos, desde o primeiro momento até a Lei Áurea. Sua obra de maior destaque foi O Navio Negreiro. José de Alencar foi um dos maiores românticos brasileiros, escrevendo vários tipos de obras entre as quais:\n\n
+
+        \t\t- Romance Indianista: menciona o indígena que não conheceu o branco (em Ubirajara), o que conheceu o branco pela primeira vez (Iracema) e o que tem convívio social (O Guarani). Foi um grande pesquisador do indígena, combinando a ingenuidade com o heroísmo. - Romance Urbano: retrata a burguesia fluminense, fazendo críticas severas a seus costumes, embora reafirmasse sua moral, como conservador.\n
+        \t\t- Romance Histórico: os heróis têm as características do "bom selvagem", criticando a presença do português mas reconhecendo o valor da cultura herdada por eles. A natureza é tida como perfeita.\n
+        \t\t- Teatro: trata de comédias e críticas sociais. Apresentou um grande sucesso de público e de crítica, embora tivesse peças proibidas pela censura.\n\n
+
+        POETAS DA PRIMEIRA GERAÇÃO\n
+            \t\tGonçalves Dias: Nascido em 1823 no Maranhão. Formou-se em Direito na Universidade de Coimbra, e em seu exílio voluntário teve a oportunidade de observar o Romantismo e suas características. Voltou ao Brasil em 1845, e sua importância foi tamanha que teve proteção de D. Pedro II. Foi professor de Latim e de História do Brasil. Morreu em alto mar em 1864, quando o navio que o trazia de volta para o Brasil naufragou. Destacou-se na poesia lírico-amorosa, assim como a indianista e nacionalista. Usou os versos decassílabo e redondilhas maiores. Sua métrica e rima favoreceram a sonoridade de seus poemas. Suas principais obras são: Primeiros Cantos e I-Juca-Pirama ("aquele que deve morrer", em tupi). Ambas obras apresentam uma ótica nacionalista e indianista, o que o coloca diante dos poetas da Primeira Geração Romântica brasileira. Sua lírica foi marcada pela inspiração dada pela adolescente Ana Amélia em todas suas obras.\n\n
+        POETAS DA SEGUNDA GERAÇÃO\n
+            \t\tÁlvares de Azevedo: Nasceu em 1831 em São Paulo. Aos 16 anos, ingressou na faculdade de Direito do Largo São Francisco e logo envolveu-se com a Sociedade Epicuréia. Morre, pouco antes de completar 21 anos, de um tumor na bacia, provocado por uma queda de cavalo. Escreve, pouco antes de morrer, obras que foram editadas por sua mãe mais tarde, organizadas sob o título Lira dos Vinte Anos, seu tema alterna entre sentimentalismo e imagens pessimistas e escapistas de sua vida. Sua prosa também destaca-se, com a obra chamada Noite na Taverna, sendo considerado o melhor trabalho da prosa ultraromântica brasileira. Todos seus temas são típicos da Segunda Geração.
+        ]]>
+    </string>
+
+    <string name="realismo">
+        <![CDATA[
+        \t\tMovimento artístico e literário do séc. XIX, que surgiu por oposição aos excessos líricos do romantismo e o idealismo classicista. Caracterizou-se fundamentalmente pela sua ligação crítica mas construtiva à sociedade: o retorno à objectividade na literatura, em contraposição ao romantismo; o rigor da escrita poética, assente num rigor reflexivo e numa planificação composicional.\n
+        \t\tO termo “realista” foi inicialmente utilizado para caracterizar a obra de artistas franceses naturalistas dos finais de oitocentos, este termo permite definir movimentos artísticos com programas diferentes, embora com alguns denominadores ideológicos comuns.\n
+
+        \t\tEm Portugal agitava-se o mesmo sentido reformista, porque segundo Eça, “Coimbra vivia então (1860-65) uma grande actividade ou antes um grande tumulto mental”. Diariamente, facilitados os meios de comunicação, os comboios despejavam no seio dessa juventude o ideário que a França irradiava. Esta falange de jovens devorava o socialista Proudhon, Zola, Renan, Vítor Hugo, entre outros, e breve se fez sentir essa rajada ideológica de natureza social e política nas Odes Modernas (1865) de Antero e na Visão dos Tempos e Tempestades Sonoras (1864) de Teófilo de Braga.\n\n
+
+        AUTORES DO REALISMO\n\n
+
+        Eça de Queirós
+         \t\tJosé Maria Eça de Queirós, filho natural de José Maria d’Almeida de Teixeira de Queirós e de mãe incógnita, nasceu a 25 de Novembro de 1845, na Póvoa de Varzim, e morreu a 16 de Agosto de 1900, em Paris.\n
+         \t\tA partir de 1863 cursa Direito, em Coimbra, onde se torna amigo de Antero de Quental; os primeiros folhetins que publica, indiciadores de uma nova estilística imaginativa, só sairão postumamente em livro com o título Prosas Bárbaras. Em 1867 funda o jornal O Distrito de Évora. De regresso a Lisboa, participa nas reuniões do Cenáculo que virão a estar na origem das Conferências do Casino. De parceria com Ramalho Ortigão, publica no Diário de Notícias, em folhetins, O Mistério da Estrada de Sintra (1870). No ano seguinte começa a publicar As Farpas. Concorre à diplomacia, começando por ser cônsul em Havana e depois em Newcastlee. Em 1886 Eça desposa Emília de Castro, fá-lo de certo modo passar a ver o mundo de outra maneira.\n
+        \t\tA partir de 1888 torna-se cônsul em Paris. O afastamento do meio português (aonde só vinha muito espaçadamente) não o impediu de colaborar na nossa imprensa, de fundar a Revista de Portugal (desde 1889) e deu-lhe um critério de observação mais objectivo e crítico da sociedade portuguesa, sobretudo das camadas mais altas. Aliás, foi em Inglaterra que Eça escreveu a parte mais significativa da sua obra, através da qual se revela um dos mais notáveis artistas da língua portuguesa.\n
+        \t\tAs suas obras mais importantes são: O Crime do Padre Amaro (1874, mas a 3ª versão, definitiva, surge em 1880), O Primo Basílio (1878), A Relíquia (1887), Os Maias (1888, considerada a sua obra-prima), A Ilustre Casa de Ramires (1897) e A Cidade e as Serras (1899). Parte da restante obra foi publicada já depois da sua morte.
+        ]]>
+    </string>
+
+    <string name="modernismo">
+        <![CDATA[
+            PRINCIPAIS CARACTERÍSTICAS\n
+            \t\tO modernismo é dividido em três gerações, que são diferenciadas pelo foco dos artistas. A primeira delas se inicia em 1922 com a Semana de Arte Moderna, e tem como foco a oposição ao parnasianismo. A segunda geração é mais politizada, e foca mais no retrato da miséria do que qualquer movimento anterior. Já a última geração é mais melancólica e deixa um pouco de lado o caráter social.\n
+            \t\tÉ importante lembrar que essas características não anulam umas às outras, as gerações funcionam como blocos de construção: cada nova fase se apoia nas que vieram antes. Elas são divididas assim por razões didáticas, mas isso não impede que Drummond, por exemplo, tenha transitado pelas três fases.\n\n
+            \t\tEntenda cada uma das fases:\n\n
+            Primeira Geração (1922-1930)\n
+            \t\tA primeira geração do modernismo vem em oposição ao parnasianismo, o movimento poético da “arte pela arte” em que a forma do poema é o principal e o conteúdo é um mero detalhe. Isso resultou em poemas perfeitamente rimados e ilustrados falando sobre vasos. O modernismo vai rejeitar isso diretamente, produzindo poemas como “Os Sapos”, do Manuel Bandeira, em que os parnasianos são chamados de sapos por “só coaxarem”, produzirem sons que não fazem nenhum sentido.\n\n
+            Segunda Geração (1930-1945)\n
+            \t\tA segunda geração é a mais politizada, onde aparece finalmente o retrato da pobreza no Brasil. Em movimentos anteriores, a miséria era mostrada, mas agora ela é o foco da narrativa. Obras como Capitães da Areia dão um enfoque político a problemas como a criminalidade infantil. Como não poderia ser diferente durante a Era Vargas, o nacionalismo e a consciência da pátria também se tornam temas importantes.\n\n
+            Terceira Geração (1945-1980)\n
+            \t\tA terceira geração é a mais introspectiva e melancólica. Começando em 1945, com o fim da Era Vargas e da Segunda Guerra Mundial, ela absorve todas as características das fases anteriores e inaugura a prosa urbana, intimista e regionalista. Essa é a geração mais abrangente, manifestando e desenvolvendo as características das gerações anteriores.
+        ]]>
+    </string>
+
+    <!-- Ingles -->
+
+    <string name="ingles_t">
+        <![CDATA[
+             SIMPLE PRESENT\n
+             \t\tO Simple Present (Presente Simples) expressa ações habituais, hábitos ou fatos.\n\n
+
+            Formulamos assim as frases no Simple Present:\n
+
+            \t\tA terceira pessoa no singular termina em s. Exemplificando: speaks, talks, walks.\n
+            \t\tAos verbos terminados em s, sh, ch, x, z, o, acrescenta-se es: does, kisses, watches.\n
+            \t\tAos verbos terminados em y precedido de vogal, acrescenta-se apenas s: I play – he plays.\n\n
+
+            Exemplos\n
+
+            \t\tHe goes to the beach every Sunday. (Ele vai à praia todo domingo). Ação habitual.\n
+            \t\tHe smokes. (Ele fuma). Hábito.\n
+            \t\tA circle is round. (Um círculo é redondo). Fato\n\n
+
+            Observação:\n
+            \t\tO Simple Present e advérbios de frequência costumam ocorrer na mesma frase. Exemplos: always (sempre), every (todo), never (nunca), usually (usualmente), often (frequentemente), seldom (raramente), sometimes (às vezes), etc.\n\n\n
+
+            SIMPLE PAST\n
+            \t\tO Simple Past (Passado Simples) é utilizado para falar sobre uma ação que aconteceu no passado e já foi concluída. É denominado de Passado Simples porque o momento em que a ação ocorreu pode ser definido.\n\n
+
+            Formulamos assim as frases no Simple Past (verbos regulares): sujeito + infinitivo + -ed.\n\n
+
+            Exemplos\n
+
+            \t\tHe looked at me. (Ele olhou para mim).\n
+            \t\tYesterday, I walked for an hour. (Ontem, eu andei durante uma hora).\n
+
+            \t\tFrases no Simple Past frequentemente empregam palavras que indicam um evento ocorrido no passado: yesterday (ontem), last night (ontem à noite), last week (semana passada), last month (mês passado), last year (ano passado), some time ago (há algum tempo).\n\n
+
+            Regras de Ortografia do Simple Past:\n\n
+
+            1. Quando o verbo termina em –e, adiciona –d, não –ed.\n
+
+            \t\tExemplos\n
+            \t\t\t\tLive – lived\n
+            \t\t\t\tLike – liked\n\n
+
+            2. Alguns verbos curtos: dobra-se a última consoante e adiciona-se –ed. (Atenção: as letras v, w, x, y não podem ser dobradas).\n
+
+            \t\tExemplos\n
+
+            \t\t\t\tfit – fitted\n
+            \t\t\t\tstop – stopped\n\n
+
+            3. Alguns verbos longos: dobra-se a última consoante e adiciona-se –ed. (As letras v, w, x, y não podem ser dobradas).\n\n
+
+            \t\tExemplos\n
+
+            \t\t\t\tprefer – preferred\n
+            \t\t\t\tregret – regretted\n\n
+
+            4. Verbos que terminam com uma consoante seguida de –y: o y torna-se i, e adiciona-se -ed.\n
+
+            \t\tExemplos\n
+
+            \t\t\t\ttry – tried\n
+            \t\t\t\tcarry – carried\n
+            \t\t\t\tstudy – studied\n
+            \t\t(Nos três exemplos acima, o y foi substituído por um i e foi adicionado –ed).
+        ]]>
+    </string>
+
+    <!-- Espanhol -->
+
+    <string name="espanhol_t">
+        <![CDATA[
+
+        PRONOMES RELATIVOS - PRONOMBRES RELATIVOS\n
+\t\tSão aqueles que se referem a um termo já mencionado.\n\n
+
+Usos e Exemplos (Usos y Ejemplos)\n\n
+
+QUE\n
+
+\t\tÉ o pronome mais utilizado, refere-se a pessoas ou coisas.\n
+
+    \t\t\t\tEl coche que quieres es caro.\n
+    \t\t\t\t(O carro que queres é caro.)\n\n
+
+EL QUE, LOS QUE, LA QUE, LAS QUE\n
+
+\t\tSão formas muito utilizadas para evitar a repetição de um termo já mencionado. Exprimem tom de formalidade.\n
+
+    \t\t\t\t— ¿Tienes una falda verde?\n
+    \t\t\t\t— No, la que tengo es roja.\n\n
+
+    \t\t\t\t( — Você tem uma saia verde?)\n
+    \t\t\t\t( — Não, a que tenho é vermelha.)\n\n
+
+QUIEN, QUIENES\n
+
+    \t\tSão formas que se referem apenas a pessoas.\n
+
+    \t\t\t\tLa mujer a quien me dirigí era la esposa del presidente.\n
+    \t\t\t\t(A mulher a quem me dirigi era a esposa do presidente.)\n\n
+
+    \t\t*No espanhol, além da forma quien, tem-se quienes (plural).\n\n
+
+    \t\t\t\tEsas mujeres, quienes están en el balcón, son muy ricas.\n
+    \t\t\t\t(Essas mulheres, as quais estão na sacada, são muito ricas.)\n\n
+
+ CUYO, CUYA, CUYOS, CUYAS\n
+
+    \t\tExprimem ideia de possessão, estabelecendo concordância sempre com aquilo que é possuído, nunca com o possuidor.\n
+
+    \t\t\t\tEse hombre, cuyas hijas son todas rubias, es vecino nuestro.\n
+    \t\t\t\t(Esse homem, cujas filhas são todas loiras, é nosso vizinho.)
+        ]]>
+    </string>
+
+    <!-- Matemática -->
+
+    <string name="funcoes">
+        <![CDATA[
+            \t\tUma relação estabelecida entre dois conjuntos A e B, onde exista uma associação entre cada elemento de A com um único de B através de uma lei de formação é considerada uma função.\n
+            \t\tO estudo das funções se apresenta em vários segmentos, de acordo com a relação entre os conjuntos podemos obter inúmeras leis de formação. Dentre os estudos das funções temos: função do 1º grau, função do 2º grau, função exponencial, função modular, função trigonométrica, função logarítmica, função polinomial. Cada função possui uma propriedade e é definida por leis generalizadas. As funções possuem representações geométricas no plano cartesiano, as relações entre pares ordenados (x,y) são de extrema importância no estudo dos gráficos de funções, pois a análise dos gráficos demonstram de forma geral as soluções dos problemas propostos com o uso de relações de dependência, especificadamente, as funções.\n
+            \t\tAs funções possuem um conjunto denominado domínio e outro chamado de imagem da função, no plano cartesiano o eixo x representa o domínio da função, enquanto o eixo y representa os valores obtidos em função de x, constituindo a imagem da função.\n\n
+
+            Funções de 1º grau\n
+                \t\tSendo assim, a função do 1° grau relacionará os valores numéricos obtidos de expressões algébricas do tipo (ax + b), constituindo, assim, a função f(x) = ax + b.\n
+                \t\tNote que para definir a função do 1° grau, basta haver uma expressão algébrica do 1° grau. Como dito anteriormente, o objetivo da função é relacionar para cada valor de x um valor para o f(x).\n
+                \t\tPortanto, para que o estudo das funções do 1° grau seja realizado com sucesso, compreenda bem a construção de um gráfico e a manipulação algébrica das incógnitas e dos coeficientes.\n\n
+
+            Funções de 2º grau\n
+                \t\tToda função estabelecida pela lei de formação f(x) = ax² + bx + c, com a, b e c números reais e a ≠ 0, é denominada função do 2º grau.\n
+                \t\tAs funções do 2º grau possuem diversas aplicações no cotidiano, principalmente em situações relacionadas à Física envolvendo movimento uniformemente variado, lançamento oblíquo, etc.; na Biologia, estudando o processo de fotossíntese das plantas; na Administração e Contabilidade relacionando as funções custo, receita e lucro; e na Engenharia Civil presente nas diversas construções.\n
+                \t\trepresentação geométrica de uma função do 2º grau é dada por uma parábola, que de acordo com o sinal do coeficiente a pode ter concavidade voltada para cima ou para baixo.\n\n
+                \t\tAs raízes de uma função do 2º grau são os pontos onde a parábola intercepta o eixo x. Dada a função f(x) = ax² + bx + c, se f(x) = 0, obtemos uma equação do 2º grau, ax² + bx + c = 0, dependendo do valor do discriminante Δ (delta), podemos ter as seguintes situações gráficas:\n
+                Δ > 0, a equação possui duas raízes reais e diferentes. A parábola intercepta o eixo x em dois pontos distintos.\n
+                Δ = 0, a equação possui apenas uma raiz real. A parábola intercepta o eixo x em um único ponto.\n
+                Δ < 0, a equação não possui raízes reais. A parábola não intercepta o eixo x.
+        ]]>
+    </string>
+
+    <string name="geometria">
+        <![CDATA[
+
+            \t\t A Geometria é o estudo das formas dos objetos presentes na natureza, das posições ocupadas por esses objetos, das relações e das propriedades relativas a essas formas.\n
+            \t\tComo a geometria é construída?\n\n
+
+            \t\tA geometria é construída sobre objetos primitivos: ponto, reta, plano, espaço, entre outros. Esses objetos não possuem definição, mas possuem características que possibilitam sua identificação.\n
+            \t\tFazendo uso desses objetos primitivos é que são definidas as primeiras formas geométricas do plano: segmentos de reta, polígonos e ângulos. A partir delas, é feita a definição de distância entre dois pontos, da qual depende a definição de círculo. Tudo isso serve como base para a construção da geometria espacial.\n
+            \t\tA geometria também é responsável por propriedades das figuras geométricas. Essas propriedades nada mais são do que resultados de relações analisadas nos objetos e figuras geométricas. Uma propriedade das circunferências, por exemplo, é a seguinte: o resultado da divisão entre o perímetro de um círculo e seu diâmetro sempre será igual a π (aproximadamente 3,14).\n
+            \t\tDesse modo, a geometria é construída relacionando objetos básicos a fim de obter objetos mais elaborados. Estes são relacionados entre si para chegar a objetos ainda mais elaborados e assim sucessivamente.\n\n
+
+            DIVISÕES DA GEOMETRIA\n
+            \t\tAtualmente a geometria é dividida em dois conjuntos: Geometria Euclidiana e Geometrias não Euclidianas.\n
+
+            Geometrias não Euclidianas\n
+            \t\tEuclides, grande matemático e escritor, viveu provavelmente no século III a.C. e é chamado de pai da geometria. Ele foi o primeiro a reunir toda a geometria em uma única obra, chamada “Os Elementos”. Esse matemático baseou a geometria plana em cinco postulados. Esse postulado afirmava: Por um ponto fora de uma reta passa uma única reta paralela à reta dada. Lobachevsky considerou o contrário: Por um ponto fora de uma reta passa mais de uma reta paralela à reta dada.\n
+            \t\tOs objetos e figuras geométricas são definidos da mesma forma que na geometria plana, a única diferença é realmente o quinto postulado.\n\n
+
+            Geometria Euclidiana\n
+            \t\tÉ a geometria discutida nos ensinos fundamental e médio e a única geometria conhecida pelo homem até meados do século XIX. A geometria Euclidiana é dividida nas seguintes subáreas:\n\n
+
+            \t\tGeometria Plana: Todas as figuras, formas e definições são feitas para objetos pertencentes ao plano, isto é, que possuem apenas largura e comprimento, mas não possuem profundidade.\n
+            \t\tOs conceitos discutidos pela geometria plana são de ponto, reta, plano, posições relativas, distância entre dois pontos, ângulos, polígonos, áreas e trigonometria, entre outros.\n\n
+
+            \t\tGeometria Espacial: Os objetos pertencem ao espaço tridimensional, ou seja, agora existe a possibilidade de considerar a sua profundidade.\n
+            \t\tOs conceitos discutidos na geometria espacial são: todos os da geometria plana, além de planos, poliedros e corpos redondos.\n\n
+
+            \t\tGeometria Analítica: Subárea que relaciona a geometria com a álgebra e utiliza uma para resolver problemas provenientes da outra.\n
+            \t\tOs conceitos discutidos na geometria analítica são: todos os conceitos e definições da geometria plana e espacial do ponto de vista algébrico, coordenadas, vetores, matrizes, quádricas e sólidos de revolução, entre outros.\n
+
+        ]]>
+    </string>
+
+    <string name="probabilidade">
+        <![CDATA[
+        PROBABILIDADE\n\n
+
+            \t\tA probabilidade é um número que varia de 0 (zero) a 1 (um) e que mede a chance de ocorrência de um determinado resultado. Quanto mais próxima de zero for a probabilidade, menores são as chances de ocorrer o resultado e quanto mais próxima de um for a probabilidade, maiores são as chances.\n
+            \t\tAs probabilidades podem ser expressas de diversas maneiras, inclusive decimais, frações e percentagens. Por exemplo, a chance de ocorrência de um determinado evento pode ser expressa como 10%; 5 em 10; 0,20 ou 1/7.\n\n
+
+            EXPERIMENTO ALEATÓRIO\n
+            \nExperimento é qualquer atividade realizada que pode apresentar diferentes resultados. Um experimento é dito aleatório quando não conseguimos afirmar o resultado que será obtido antes de realizar o experimento. Um experimento é dito equiprovável se todos os possíveis resultados possuem a mesma chance de ocorrer.\n\n
+
+            ESPAÇO AMOSTRAL E EVENTO\n
+            \t\tEm uma tentativa com um número limitado de resultados, todos com chances iguais, devemos considerar:\n
+             \t\tESPAÇO AMOSTRAL (E)
+            \t\t\t\tEspaço amostral é o conjunto E cujos elementos são todos os possíveis resultados que podem ser obtidos na realização de um experimento.
+             \t\tEVENTO (A)
+            \t\t\t\tEvento é qualquer subconjunto de um espaço amostral.\n\n
+
+             CÁLCULO DE PROBABILIDADES\n
+            \t\tSeja um evento A de um espaço amostral referente a um experimento aleatório e equiprovável.\n
+            \t\tA probabilidade P(A) de se obter o evento A é dada por:\n
+
+            \t\t\t\tP(A) = (n(A))/(n(E))\n
+            Onde:\n
+                \t\tn(A) é o número de elementos do evento A;\n
+                \t\tn(E) é o número de elementos do espaço amostral\n\n\n
+
+
+            ESTATÍSTICA\n
+            \t\tA Estatística está presente em todas as áreas da ciência que envolvam o planejamento do experimento, a construção de modelos, a coleta, o processamento e a análise de dados e sua consequente transformação em informação, para validar hipóteses científicas sobre um fenômeno observável. Desta forma, a Estatística pode ser pensada como a ciência de aprendizagem a partir de dados.\n
+            \t\tA aplicação de técnicas estatísticas a dados meteorológicos tem a vantagem de compactar o enorme volume de dados, medidos, por exemplo, em uma estação, em uma simples tabela ou uma equação, capaz de sumariar todas as informações de modo a facilitar as inferências sobre os dados.\n\n
+
+            DEFINIÇÃO\n
+            \t\tA estatística é uma coleção de métodos para planejar experimentos, obter dados e organiza-los, resumi-los, analisá-los, interpretá-los e deles extrair conclusões.\n\n
+
+            NOÇÕES DE ESTATÍSTICA\n
+             \t\tAMOSTRA\n
+            \t\t\t\tSão elementos coletados dentro do vasto universo.\n\n
+
+             \t\tROL\n
+            \t\t\t\tÉ toda sequência de dados numéricos.\n\n
+
+            \t\tCLASSES\n
+            \t\t\t\tQualquer intervalo real que contenha um rol da amostra.\n
+
+            \t\tMEDIDAS DE POSIÇÃO\n
+            \t\t\t\tSão as estatísticas que representam uma série de dados orientando-nos quanto à posição da distribuição em relação ao eixo horizontal do gráfico da curva de frequência.\n
+            \t\tAs medidas de posições mais importantes são as medidas de tendência central ou pro médias (verifica-se uma tendência dos dados observados a se agruparem em torno dos valores centrais).\n
+            \t\tAs medidas de tendência central mais utilizadas são: média aritmética, moda e mediana.\n\n
+
+            MÉDIA ARITMÉTICA\n
+            \t\tÉ igual ao quociente entre a soma dos valores do conjunto e o número total dos valores.\n
+            \t\t\t\tMa=(x1+x2+⋯+xn)/n \n\n
+
+            MÉDIA ARITMÉTICA PONDERADA\n
+            \t\tConsideremos uma coleção formada por n números, de forma que cada um esteja sujeito a um peso (valor que indica a quantidade de vezes em que cada número se repete).\n
+            \t\tA média aritmética ponderada desses n números é a soma dos produtos de cada um por seu peso, dividida pelos somatórios dos seus pesos, isto é:\n
+            \t\t\t\tMp = (X1P1+X2P2+⋯XnPn)/(P1+P2+⋯+Pn)
+            Nota: “peso” é sinónimo de “ponderação\n\n
+
+            MODA: (Mo)\n
+            \t\tÉ o valor que ocorre com maior frequência.\n
+            \t\tQuando dois valores ocorrem com a mesma frequência, cada um deles é chamado de uma moda, e o conjunto se diz BIMODAL.\n
+            \t\tSe mais de dois valores ocorrem com a mesma frequência máxima, cada um deles é uma moda e o conjunto é MULTIMODAL.\n
+            \t\tQuando nenhum valor é repetido o conjunto não tem moda\n\n
+
+            MEDIANA (Md)\n
+            \t\tValor do meio do conjunto de dados, quando os valores estão dispostos em ordem crescente ou decrescente; divide um conjunto de dados em duas partes iguais.\n
+            Para calcular:\n
+                \t\tDisponha os valores em ordem (crescente ou decrescente)\n
+                \t\tSe o número de valores é ímpar, a mediana é o número localizado no meio da lista.\n
+                \t\tSe o número é par, a mediana é a média aritmética dos dois valores do meio.\n\n
+
+            MEDIDAS DE DISPERSÃO\n
+            \t\tExistem algumas medidas chamadas medidas de dispersão, que procuram mostrar como os elementos do conjunto se comportam em torno da região central, ou seja, medidas que mostram se eles estão mais ou menos dispersos.\n
+            \t\tDuas medidas de dispersão são chamados de Variância e Desvio-Padrão.\n\n
+
+            VARIÂNCIA\n
+            \t\tVeja, por exemplo, o conjunto de dados:\n
+            \t\t\t\t2, 5, 6, 8, 14,\n
+            \t\tOnde a média aritmética é 7. A diferença entre cada valor é a média é chamada desvio.\n
+            \t\tChamamos variância de um conjunto de dados a média aritmética dos quadrados dos desvios.\n\n
+
+            DESVIO-PADRÃO\n
+            \t\tO desvio-padrão é definido como a raiz quadrada da variância
+        ]]>
+    </string>
+
+
+    <string name="trigonometria">
+        <![CDATA[
+            \t\tA trigonometria é a parte da matemática que estuda as relações existentes entre os lados e os ângulos dos triângulos.\n
+            \t\tEla é utilizada também em outras áreas de estudo como física, química, biologia, geografia, astronomia, medicina, engenharia, dentre outras.\n\n
+
+            Funções Trigonométricas\n
+            \t\tAs funções trigonométricas são as funções relacionadas aos triângulos retângulos, que possuem um ângulo de 90°. São elas: seno, cosseno e tangente.\n
+            \t\tAs funções trigonométricas estão baseadas nas razões existentes entre dois lados do triângulo em função de um ângulo.\n\n
+
+            \t\tElas são formadas por dois catetos (oposto e adjacente) e a hipotenusa:\n\n
+
+            Seno = (cateto oposto)/hipotenusa\n
+            cosseno = (cateto adjacente)/hipotenusa\n
+            Tangente = (cateto oposto)/(cateto adjacente)\n\n
+
+            Círculo Trigonométrico\n
+            \t\tO círculo trigonométrico ou círculo unitário é usado no estudo das funções trigonométricas: seno, cosseno e tangente.\n\n
+
+            TEORIA EUCLEDIANA\n
+            \t\tAlguns conceitos importantes da geometria euclidiana nos estudos da trigonometria são:\n\n
+
+            Lei dos Senos\n
+            \t\tA Lei dos Senos estabelece que num determinado triângulo, a razão entre o valor de um lado e o seno de seu ângulo oposto, será sempre constante.\n
+            \t\tDessa forma, para um triângulo ABC de lados a, b, c, a Lei dos Senos é representada pela seguinte fórmula:\n\n
+
+            \t\t\t\ta/(sen A) = b/(sen B) = c/(sen C)\n\n
+
+            Lei dos Cossenos\n
+            \t\tA Lei dos Cossenos estabelece que em qualquer triângulo, o quadrado de um dos lados, corresponde à soma dos quadrados dos outros dois lados, menos o dobro do produto desses dois lados pelo cosseno do ângulo entre eles.\n
+            \t\tDessa maneira, sua fórmula é representada da seguinte maneira:\n\n
+
+            \t\t\t\ta² = b² + c² - 2.b.c.cos α\n
+            \t\t\t\tb² = a² + c² - 2.a.c.cos β\n
+            \t\t\t\tc² = a² + b² - 2.a.b.cos γ\n\n
+
+            Lei das Tangentes\n
+            \t\tA Lei das Tangentes estabelece a relação entre as tangentes de dois ângulos de um triângulo e os comprimentos de seus lados opostos.\n
+            \t\tDessa forma, para um triângulo ABC, de lados a, b, c, e ângulos α, β e γ, opostos a estes três lados, têm-se a expressão:\n\n
+
+
+            \t\t\t\t(a+b)/(a-b) = tan⁡〖[1/2 (A+B)]〗/tan⁡〖[1/2 (A-B)]〗\n\n
+
+            Teorema de Pitágoras\n
+            \t\tO Teorema de Pitágoras, criado pelo filósofo e matemático grego, Pitágoras de Samos, (570 a.C. - 495 a.C.), é muito utilizado nos estudos trigonométricos.\n
+            \t\tEle prova que no triângulo retângulo, composto por um ângulo interno de 90° (ângulo reto), a soma dos quadrados de seus catetos corresponde ao quadrado de sua hipotenusa:\n\n
+            \t\t\t\ta² = c²+ b²\n
+            Sendo,\n
+            a: hipotenusa\n
+            c e b: catetos
+        ]]>
+    </string>
+
+    <!-- Química -->
+    <string name="estequiometria">
+        <![CDATA[
+            \t\tEstequiometria é o cálculo que permite relacionar quantidades de reagentes e produtos, que participam de uma reação química com o auxílio das equações químicas correspondentes.\n
+            \t\tAntoine Laurent de Lavoisier, químico francês e considerado o pai da Química Moderna inferiu que dentro de um recipiente fechado, a massa total seria invariável mesmo ocorrendo quaisquer transformações.\n
+            \t\tVindo a complementar a sua teoria surge Joseph Louis Proust que através de experimentos com substâncias puras concluiu que a composição em massa das substâncias era constante independente do seu processo de obtenção. Resumindo, a soma da massa dos reagentes sempre resultará no mesmo valor da soma da massa dos produtos.\n
+            \t\tAs leis de Lavoisier e Proust são conhecidas como Leis Ponderais e marcam o início da Química como Ciência além de nortearem o estudo da estequiometria.\n\n
+
+            \t\tA estequiometria é dada por cálculos que relacionam a quantidade de reagentes e produtos existentes no meio reacional e pré-determinam a quantidade de produto formada. Para realizar os cálculos precisamos seguir algumas regras:\n
+                \t\t\t\t1.	Primeiramente devemos ter clara a relação de grandezas\n
+                \t\t\t\t2.	Escrever a reação de forma que reagentes e produtos encontrem-se com os coeficientes balanceados. O termo balanceado se refere à quantidade de átomos de determinado elemento químico que deve ser a mesma nos reagentes e nos produtos.\n
+                \t\t\t\t3.	Após esses passos realiza-se geralmente uma “regra de três” para encontrar o valor buscado.\n\n
+
+            \t\tDevemos levar em conta alguns termos envolvidos em cálculos deste tipo que são:\n
+            \t\tPureza: Se refere a quanto do reagente realmente é capaz de reagir para formar determinado produto. Por exemplo, se dizemos que a massa de um reagente é 100 g, porém temos a informação de que o mesmo é 90% puro, devemos considerar que apenas 90g irão reagir e consequentemente ser levadas em conta para fins de cálculo o restante é impureza.\n
+            \t\tRendimento: O rendimento tem relação em especial com o produto. Quando uma reação tem rendimento total significa que toda a quantidade prevista em cálculos será obtida, porém isso na prática geralmente não ocorre devido a resíduos que se formam nas reações. Porém se efetuarmos os cálculos e percebermos que determinada reação formaria em condições ideais 180 gramas e houve na prática um rendimento de 50% devemos considerar que temos apenas 90 gramas de produto.
+        ]]>
+    </string>
+
+    <string name="inorganica">
+        <![CDATA[
+        \t\tA química inorgânica é o ramo da química que engloba a química geral e o estudo dos compostos inorgânicos, ou seja, as substâncias que não possuem o carbono formando cadeias em sua constituição. Os compostos inorgânicos são mais abundantes na Terra do que os orgânicos, principalmente devido a composição do núcleo (majoritariamente ferro) e são geralmente encontrados na natureza como minerais.\n\n\n
+
+ÁCIDOS\n
+\t\tSegundo Arrhenius, ácido é toda substância que em solução aquosa libera, como único cátion, o íon H+ (H3O+). São subdivididos em hidrácidos e oxiácidos.\n\n
+
+Hidrácidos: ácidos que não contém o elemento oxigênio em sua estrutura. Ex.: HCl, H2S, HCN.\n
+\t\tA nomenclatura característica dos hidrácidos é dada pela regra:\n
+\t\t\t\tÁCIDO nome do elemento + ÍDRICO.\n\n
+
+Oxiácidos: ácidos que contém o elemento oxigênio em sua estrutura. Ex.: H2SO4, HNO3, H2CO3.\n
+\t\tA nomenclatura dos oxiácidos segue a regra do NOX\n\n
+
+BASE ou HIDRÓXIDOS\n
+\t\tSegundo Arrhenius, base ou hidróxido é toda substância que em solução aquosa libera, como único ânion, o íon OH‒ (hidroxila).\n
+\t\tA nomenclatura das bases é dada de acordo com o cátion formador.\n
+\t\tCátions que possuem NOX fixo:\n
+\t\t\t\tHIDRÓXIDO DE nome do cátion.\n\n
+
+SAIS\n
+\t\tSal é toda substância que, em solução aquosa, sofre dissociação, liberando pelo menos um cátion diferente do H+ e um ânion diferente do OH‒.\n
+\t\tA nomenclatura dos sais varia de acordo com a nomenclatura do ácido que deu origem ao cátion, respeitando a regra\n
+\t\tOs sais são geralmente obtidos a partir de reações de neutralização entre um ácido e uma base. A reação de neutralização pode ser total ou parcial, porém sempre produzindo um sal e água.\n\n
+
+Neutralização total – neutraliza todos os hidrogênios com as hidroxilas disponíveis.\n
+Neutralização parcial – neutraliza os hidrogênios com as hidroxilas, podendo “sobrar” excesso de um dos íons.\n\n
+
+ÓXIDOS\n
+Óxidos são compostos binários (possuem dois elementos) onde o oxigênio é o elemento mais eletronegativo.\n
+A nomenclatura dos óxidos possui duas possibilidades.\n
+\t\tÓxidos formados por ametais (óxidos moleculares)\n
+\t\tÓxidos formados por metais (óxidos iônicos)\n\n
+
+Os óxidos podem ser divididos em:\n
+•	Óxidos básicos – formados por metais de carga +1 e +2, quando reagem com água, originam uma base. Ex.: Na2O.\n
+•	Óxidos ácidos – formados por ametais, quando reagem com a água originam um ácido. Ex.: CO2.\n
+•	Óxidos neutros – são aqueles que não reagem com a água. São eles CO, NO e N2O.\n
+•	Óxidos anfóteros – são aqueles que se comportam como base na presença de um ácido e como ácido na presença de uma base. Ex.: ZnO.\n
+•	Óxidos duplos ou mistos – são o resultado da combinação de dois óxidos de um mesmo elemento. Ex.: Fe3O4 (combinação entre FeO + Fe2O3).\n
+•	Peróxidos – são óxidos onde o oxigênio apresenta NOX -1. Geralmente formados por hidrogênio, zinco, prata, metal alcalino ou alcalino terroso. Ex.: H2O2 (peróxido de hidrogênio).\n
+•	Superóxidos – são óxidos onde o oxigênio apresenta NOX -½. Geralmente formados por metal alcalino ou alcalino terroso. Ex.: Na2O4 (superóxido de sódio).\n\n
+
+Reações Inorgânicas\n
+Uma reação química ocorre quando uma ou mais substâncias sofrem um processo que leva a formação de novas substâncias. Em geral, reações inorgânicas são exotérmicas, ou seja, são reações que liberam energia durante seu processo, mas existem algumas que possuem comportamento endotérmico, absorvendo energia durante o seu processamento. As reações inorgânicas são divididas em síntese (ou adição), decomposição (ou análise), simples-troca (ou deslocamento) e dupla-troca.\n
+\t\tReações de síntese: duas ou mais substâncias originam um único produto.\n
+\t\tReações de decomposição: uma única substância sofre uma reação e se divide em duas ou mais.\n
+\t\tReações de simples-troca: uma substância simples reage com outra composta, gerando uma nova substância simples e outra composta.\n
+\t\tReações de dupla-troca: duas substâncias compostas reagem e geram duas novas substâncias compostas.
+        ]]>
+    </string>
+
+    <string name="organica">
+        <![CDATA[
+            \t\tA química pode ser dividida em seis áreas do conhecimento: química geral e inorgânica (estuda os compostos inorgânicos e a estrutura da matéria), química orgânica (estuda os compostos de carbono, suas reações e propriedades), química analítica (estuda técnicas de identificação e quantificação de substâncias químicas), físico-química (estuda os aspectos termodinâmicos e cinéticos das substâncias e reações) e bioquímica (estuda a interação das substâncias químicas com organismos vivos).\n\n
+
+            Estudo do carbono\n
+            \t\tÉ a parte da química orgânica que estuda o elemento carbono, utilizando o conhecimento de ligações químicas para determinar os tipos de ligações possíveis para o elemento e sua hibridização em cada caso, bem como sua capacidade de encadeamento e seu comportamento dentro das moléculas orgânicas.\n\n
+
+            \t\tNomenclatura: PREFIXO + INFIXO + SUFIXO (depende da função orgânica)\n\n
+
+            Estudo das funções orgânicas\n
+            \t\tO estudo das funções orgânicas é a área onde aprende-se a identificar as funções, seus grupamentos funcionais e sua nomenclatura oficial.\n\n
+
+            Propriedades dos compostos orgânicos\n
+            \t\tEstuda as propriedades inerentes a cada classe de funções e como estas interagem entre si. Dentre as propriedades estudadas estão temperatura de fusão, temperatura de ebulição, solubilidade, acidez e basicidade.\n
+            \t\tEm geral, todas as propriedades físicas dependem das interações intermoleculares presentes nos compostos. Vale lembrar a ordem de força das interações intermoleculares: Ligação Hidrogênio > Dipolo-dipolo > Van der Waals.\n\n
+
+            Isomeria\n
+            \t\tA isomeria é o fenômeno onde duas ou mais substâncias diferentes apresentam a mesma fórmula molecular e possuem diferentes fórmulas estruturais. Este ramo da química estuda as semelhanças entre cadeias carbônicas e funções, bem como seu comportamento espacial. A isomeria é dividida em plana (considera apenas a fórmula estrutural plana) e espacial (considera a fórmula estrutural espacial e a simetria da molécula).\n\n
+
+            Reações orgânicas\n
+            \t\tAs reações orgânicas ocorrem tanto em processos orgânicos quanto industriais, sendo assim, é importante o seu estudo para entendermos a bioquímica, os processos metabólicos e interações que ocorrem nos seres vivos. É uma área de grande incentivo de pesquisa em laboratórios e universidades pois é a base do desenvolvimento de remédios, processos da indústria alimentícia, dentre outros.\n
+            \t\tAs reações orgânicas são divididas em substituição, adição e eliminação.\n\n
+
+            Polímeros\n
+            \t\tPolímeros são macromoléculas formadas após uma reação de polimerização entre monômeros. Existem polímeros naturais, como as proteínas, a celulose e o látex, e existem polímeros sintéticos, que são sintetizados em laboratório de forma a “copiar” os naturais. Exemplos de polímeros sintéticos são os plásticos, o isopor e o nylon.\n
+            \t\tDentre os polímeros sintéticos temos dois tipos: polímeros de adição e de condensação.\n\n
+
+            Polímeros de adição: os monômeros utilizados na produção desses polímeros devem apresentar pelo menos uma dupla ligação entre carbonos. Durante a polimerização, ocorre a ruptura da ligação π e a formação de duas novas ligações simples.\n
+            Polímeros de condensação: são formados pela polimerização de dois monômeros diferentes, liberando uma molécula pequena (geralmente a água) durante a condensação. Não é necessário que haja dupla ligação em um dos monômeros, mas é preciso que os dois sejam de funções diferentes.
+        ]]>
+    </string>
+
+    <string name="tabela">
+        <![CDATA[
+        \t\tEm Química, os critérios utilizados para a organização dos elementos químicos foram estabelecidos ao longo do tempo. No ano de 1869, Dimitri Mendeleev iniciou os estudos a respeito da organização da tabela periódica através de um livro sobre os cerca de 60 elementos conhecidos na época, cujas propriedades ele havia anotado em fichas separadas. Ao trabalhar com esses dados ele percebeu que organizando os elementos em função da massa de seus átomos, determinadas propriedades se repetiam diversas vezes, e com uma mesma proporção, portanto era uma variável periódica. Lembrando que periódico é tudo o que se repete em intervalos de tempo bem definidos, como é o caso das estações do ano e das fases da lua, por exemplo.\n
+        \t\tEla foi criada com o intuito de organizar as informações já constatadas a fim de facilitar o acesso aos dados. Quando foi proposta muitos elementos ainda não haviam sido descobertos, muito embora seu princípio seja seguido até hoje com 118 elementos.\n\n
+
+        A tabela tem os elementos químicos dispostos em ordem crescente de número atômico e são divididos em grupos (ou famílias) devido a características que são comuns entre eles. Cada elemento químico é representado por um símbolo, por exemplo a prata é representada por Ag devido a seu nome no latim argentum. Cada elemento possui ao lado de seu símbolo o número atômico e o número de massa.\n\n
+
+        Classificação dos elementos\n
+        •	Metais: São bons condutores de calor e eletricidade. São sólidos nas CNTP (com exceção do mercúrio), além de maleáveis e dúcteis.\n
+        •	Não metais: São maus condutores de corrente elétrica e calor. Podem assumir qualquer estado físico na temperatura ambiente.\n
+        •	Gases nobres: Apresentam baixa reatividade, sendo até pouco tempo considerados inertes.\n\n
+
+        \t\tOs elementos podem ser classificados em representativos ou de transição (interna e externa). Os representativos são aqueles cuja distribuição eletrônica termina em s ou p. Os elementos de transição externa são aqueles cuja distribuição acaba em d, e os de transição interna acabam em f. A localização de um elemento na tabela periódica pode ser indicada pelo seu grupo e seu período. Os elementos de transição interna são os que se encontram nas duas linhas bem embaixo na tabela e na verdade é como se estivessem localizados no no sexto e sétimo período do grupo três.\n
+        \t\tCada linha no sentido horizontal da tabela periódica representa um período. Eles são em número de sete, e o período em que o elemento se encontra indica o número de níveis que possui. Por exemplo o sódio (Na) está no período três, o que significa que o seu átomo possui três camadas eletrônicas.\n\n
+
+        \t\tJá os grupos são as linhas verticais que apresentam elementos químicos que compartilham propriedades. Por exemplo o flúor (F) e o cloro (Cl) estão no grupo 17 (ou 7A) por possuírem alta tendência de receber elétrons, o que chamamos de eletronegatividade. Alguns grupos possuem nomes específicos como os listados abaixo e os demais recebem o nome do primeiro elemento de seu grupo.\n\n
+
+        Grupo 1: Metais alcalinos: esses elementos são muito reativos principalmente com a água. Esta reatividade aumenta conforme aumenta o número atômico e o raio do átomo. Todos os elementos desse grupo são eletropositivos, metais bons condutores de eletricidade, e formam bases fortes. São sólidos a temperatura ambiente, apresentam brilho metálico e quando expostos ao ar oxidam facilmente. São utilizados na iluminação no caso das lâmpadas de sódio, na purificação de metais e na fabricação de sabões sendo combinados com a gordura.\n
+        Grupo 2: Metais alcalino-terrosos: Possuem esse nome por serem geralmente encontrados na terra. São bastante reativos, porém menos que os metais do grupo 1. Também são eletropositivos e são mais duros e densos do que os metais alcalinos. São utilizados em ligas metálicas como é o caso por exemplo do Berílio (Be), na composição do gesso e do mármore sendo o caso do cálcio (Ca) e em fogos de artifício magnésio (Mg) e estrôncio (Sr).\n
+        Grupo 16 (ou 6A): Calcogênios: Os elementos desse grupo recebem esse nome derivado do grego que significa “formadores de cobre”. Neste grupo pode-se perceber facilmente analisando todos os elementos do grupo a presença de características metálicas e não metálicas. Os elementos mais importantes deste grupo são o oxigênio (O) e o enxofre (S) sendo o primeiro o gás utilizado inclusive em nossa respiração e o último é responsável inclusive pelo fenômeno da chuva ácida.\n
+        Grupo 17 (ou 7A): Halogênios: São os elementos mais eletronegativos da tabela periódica, ou seja, possuem a tendência de receber elétrons em uma ligação. Podem se combinar com quase todos os elementos da tabela periódica. O flúor por exemplo possui aplicação na higiene bucal.\n
+        Grupo 18 (ou 8A): Gases nobres: possuem essa intitulação devido a ser constatado antigamente que não possuíam tendência alguma a formarem ligações. Isto ocorre devido à estabilidade de seus orbitais da camada mais externa completamente preenchidos. Hoje alguns compostos conseguiram ser preparados com estes elementos e incluem geralmente o Xenônio (Xe) que possui a primeira energia de ionização muito próxima do oxigênio.
+        ]]>
+    </string>
+
+    <!-- Biologia -->
+    <string name="genetica">
+        <![CDATA[
+            PRIMEIRA LEI DE MENDEL\n
+                \t\t-Monohibridismo(Aa),\n
+                \t\t-Segregação dos pares,\n
+                \t\t-Pureza dosgenes,\n\n
+
+                \t\tEm seus experimentos, Mendel teve o cuidado de utilizar apenas plantas de linhagens puras, por exemplo, plantas de sementes verdes que só originassem sementes verdes e plantas de sementes amarelas que só originassem sementes amarelas.\n
+                \t\tUma vez constatado que as plantas eram puras, Mendel escolheu uma característica, por exemplo, plantas puras de sementes amarelas com plantas puras de sementes verdes, e realizou o cruzamento. Essa primeira geração foi chamada de geração parental ou geração P. Como resultado desse cruzamento, Mendel obteve todas as sementes de cor amarela e a essa geração denominou de geração F1. Os indivíduos obtidos nesse cruzamento foram chamados por Mendel de híbridos, pois eles descendiam de pais com características diferentes.\n
+                \t\tEm seguida, Mendel realizou uma autofecundação entre os indivíduos da geração F1,chamando essa segunda geração de geração F2. Como resultado dessa autofecundação, Mendel obteve três sementes amarelas e uma semente verde (3:1). A partir dos resultados obtidos, Mendel concluiu que como a cor verde não apareceu na geração F1, mas reapareceu na geração F2, as sementes verdes tinham um fator que era recessivo, enquanto as sementes amarelas tinham um fator dominante. Por esse motivo, Mendel chamou as sementes verdes de recessivas e as sementes amarelas de dominantes.\n\n
+
+            SEGUNDA LEI DE MENDEL\n
+                \t\t-Duas características (Diibridismo) (AaBb),\n
+                \t\t-Várias características (Poliibridismo),\n
+                \t\t-Segregação Independente;\n\n
+
+                \t\tA proposição da segunda lei de Mendel, tem como fundamento a análise dos resultados decorrentes às possibilidades que envolvem não mais o estudo de uma característica isolada (Primeira Lei de Mendel), mas o comportamento fenotípico envolvendo duas ou mais características, em conseqüência da probabilidade (combinação) de agrupamentos distintos quanto à separação dos fatores (genes alelos / genótipo) na formação dos gametas.
+        ]]>
+    </string>
+
+    <string name="ecologia">
+        <![CDATA[
+        NIVEIS DE ORGANIZAÇÃO\n\n
+
+            \t\tEspécie: organismos com características genéticas semelhantes. Com isso, o cruzamento de indivíduos da mesma espécie gera descendentes férteis. Exemplos: caranguejos, ursos, pau-brasil, etc;\n
+            \t\tPopulação: termo que designa o conjunto de organismos da mesma espécie. Inicialmente usado para grupos humanos, depois ampliado para qualquer organismo. Exemplo: grupo de peixes-palhaço;\n
+            \t\tComunidade: conjunto das populações que vivem numa mesma região. Também chamado de "Comunidade Biológica", "Biocenose" ou "Biótopo". Exemplo: aves, insetos e plantas de uma região;\n
+            \t\tEcossistema: conjunto de comunidades que interagem entre si e com o ambiente. Formado pela interação de biocenoses e biótopos. Exemplos: pode ser uma lagoa, uma floresta ou até um aquário;\n
+            \t\tBioma: reunião de ecossistemas com características próprias de diversidade biológica e condições ambientais. Exemplos: a Mata Atlântica, o Cerrado e a Amazônia são alguns dos biomas brasileiros;\n
+            \t\tBiosfera: conjunto de todos os ecossistemas das diferentes regiões do planeta. É a reunião de toda a biodiversidade existente na Terra.\n\n
+
+        CADEIA ALIMENTAR\n
+
+        Definição\n
+            \t\tHá várias formas com que os seres vivos obtêm energia, e a principal delas é pela alimentação. A Cadeia Alimentar tem como objetivo ordenar de modo didático essa transferência de energia entre os animais.\n\n
+
+        Niveis Tróficos\n
+            \t\tSeres autotróficos: fazem parte dessa classificação da cadeia alimentar os seres capazes de produzir seu próprio alimento. Esses seres, representados pelas plantas, as cianófitas (algas azuis e verdes) e algumas bactérias, são conhecidos como produtores primários;
+            \t\tSeres heterotróficos: fazem parte dessa classificação os seres que não são capazes de produzir o próprio alimento, ou seja, precisam caçar ou procurar por seus alimentos. Esta classificação inclui todos os animais e fungos. Nesta classificação também estão os seres herbívoros, os carnívoros e os decompositores.
+            \t\tHerbívoros: animais que se alimentam diretamente dos produtores como, por exemplo, a vaca, que se alimenta de capim (um produtor primário). Dessa forma, são conhecidos como consumidores primários pois alimentam-se diretamente de um produtor primário;
+            \t\tCarnívoros: se alimentam diretamente dos seres heterótrofos como, por exemplo, o leão nas selvas. São conhecidos como consumidores secundários pois alimentam-se da carne dos produtores primários;
+            \t\tDecompositores: são seres microscópicos que se alimentam de matéria morta.
+        ]]>
+    </string>
+
+    <string name="citologia">
+            <![CDATA[
+            \t\tAs células são a unidade fundamental da vida. Isso quer dizer que, com a exceção dos vírus, todos os organismos vivos são compostos por elas. Nesse sentido, podemos classificar os seres vivos pela sua constituição celular ou complexidade estrutural, existindo os unicelulares e os pluricelulares\n\n
+
+            Tipos de Células\n
+                \t\tAs células podem ser divididas em dois tipos: as procariontes e eucariontes.\n\n
+
+                \t\tProcariontes\n
+                    \t\t\t\tA principal característica da célula procarionte é a ausência de carioteca delimitando o núcleo celular. O núcleo da célula procarionte não é individualizado.As células procariontes são as mais primitivas e possuem estruturas celulares mais simples. Esse tipo celular pode ser encontrado nas bactérias.\n\n
+
+                \t\tEucariontes\n
+                    \t\t\t\tAs células eucariontes são mais complexas. Essas possuem carioteca individualizando o núcleo, além de vários tipos de organelas. Como exemplos de células eucariontes estão as células animais e as células vegetais.\n\n\n
+
+            CÉLULAS EUCARIONTES:\n\n
+
+            Membrana Plasmática\n
+                \t\tDe forma simples, podemos definir a membrana plasmática como envoltório celular. Este envoltório será o responsável pela forma da célula e pelas substâncias que entram e saem dela. Sua composição química é lipoprotéica (gordura + proteína), porém, esta não se dá de forma homogênea. Há dois tipos de substância que atravessam a membrana plasmática: as hidrossolúveis e as lipossolúveis.\n
+                \t\tO processo de entrada e saída de substâncias através da membrana plasmática são conhecidos como transporte passivo (difusão e osmose) e transporte ativo (endocitose, fagocitose, exocitose).\n\n
+
+            Citoplasma\n
+
+                \t\tMitocôndrias
+                    \t\t\t\tResponsável pela respiração celular, a qual é fonte de energia para a maioria das funções celulares
+
+                \t\tRetículo Endoplasmático
+                    \t\t\t\tLiso: Produção de lipídeos que irão compor as membranas
+                    \t\t\t\tRugoso: Síntese proteica
+
+                \t\tComplexo de Golgi
+                    \t\t\t\tModificar, armazenar e exportar proteínas sintetizadas no retículo endoplasmático rugoso.
+                    \t\t\t\tOrigina os lisossomos e os acrossomos dos espermatozóides
+
+                \t\tLisossomos
+                    \t\t\t\tSão responsáveis pela digestão intracelular. Essas organelas atuam como sacos de enzimas digestivas, digerindo nutrientes e destruindo substâncias não desejadas.
+                \t\tRibossomos
+                    \t\t\t\tA função dos ribossomos é auxiliar a síntese de proteínas nas células.
+                \t\tPeroxissomos
+                    \t\t\t\tA função dos peroxissomos é a oxidação de ácidos graxos para a síntese de colesterol e respiração celular.
+        ]]>
+    </string>
+
+    <!-- Física -->
+    <string name="dinamica">
+        <![CDATA[
+            \t\t\t\t\tAS TRÊS LEIS DE NEWTON\n\n\n
+
+
+            FORÇA: grandeza vetorial, oriunda da interação de dois ou mais corpos, podendo causar deformação e/ou alteração em seus estados de movimento.\n
+
+            VETOR: segmento de reta com Intensidade, Direção e Sentido\n\n
+
+            PRIMEIRA LEI - INÉRCIA\n
+            \t\t“Todo corpo continua no estado de repouso ou de MRU, a menos que seja obrigado a mudá-lo por forças a ele aplicadas.”\n\n
+
+            EQUILÍBRIO ESTÁTICO: corpo em repouso.\n
+            EQUILÍBRIO DINAMICO: corpo em MRU.\n\n
+
+            SEGUNDA LEI - PRINCÍPIO FUNDAMENTAL DA DINAMICA\n
+                \t\t“A resultante das forças que agem num corpo é igual ao produto de sua massa pela aceleração adquirida.”
+            \t\t\t\t\tF = m.a\n\n
+
+            TERCEIRA LEI - AÇÃO E REAÇÃO\n
+            \t\t“Se o corpo A aplica uma força sobre o corpo B, A recebe de B uma força de mesma intensidade, mesma direção e sentido oposto à força que aplicou em B.”\n\n
+
+            As forças de ação e reação têm sempre a mesma natureza.\n
+            As forças de ação e reação sempre estão aplicadas em corpos distintos.
+        ]]>
+    </string>
+
+    <string name="eletrica">
+        <![CDATA[
+
+        INTENSIDADE DE CORRENTE ELÉTRICA\n
+	    \n
+    	Indicando por Q a carga total, em valor absoluto, que atravessa a superfície (S) do condutor no intervalo de tempo Δt, define-se a intensidade média de corrente elétrica (im), nesse intervalo de tempo, pela relação:\n
+        \n
+                      \t\t\t         im = Q/Δt\n
+        \n
+        A unidade de intensidade de corrente elétrica no Sistema Internacional é o ampere (A).\n
+        \n
+        \t\t\tcoulomb (C) = ampere (A)/segundo(s)\n
+
+        \n
+        EFEITOS DA CORRENTE ELÉTRICA\n\n
+
+            \tEfeito Químico: Ocorre em determinadas reações químicas quando elas são percorridas por uma corrente elétrica.\n\n
+
+            \tEfeito Térmico: Também chamado efeito joule, surge dos inúmeros choques dos elétrons de um condutor quando este é percorrido por uma corrente elétrica.\n\n
+
+            \tEfeito Magnético: Se manifesta quando há o aparecimento de um campo magnético na região próxima de onde se aplica a corrente elétrica.\n\n
+
+            \tEfeito Fisiológico: Acontece quando há passagem de corrente elétrica pelo organismo dos seres vivos.\n\n
+
+            \tEfeito Luminoso: Ocorre quando, em determinadas condições, a passagem da corrente elétrica faz com que ele emita luz por meio de um gás rarefeito.\n
+
+        ]]>
+
+    </string>
+
+    <string name="optica">
+        <![CDATA[
+            Os princípios fundamentais da óptica são:\n\n
+
+            1º - Princípio da Propagação Retilínea: a luz sempre se propaga em linha reta;\n
+            2º - Princípio da Independência de raios de luz: os raios de luz são independentes, podendo até mesmo se cruzarem, não ocasionando nenhuma mudança em relação à direção dos mesmos;\n
+            3º - Princípio da Reversibilidade da Luz: a luz é reversível. Por exemplo, se vemos alguém através de um espelho, certamente essa pessoa também nos verá. Assim, os raios de luz sempre são capazes de fazer o caminho na direção inversa.\n\n
+
+            A luz pode ser propagada em três diferentes tipos de meios. \n
+            Os meios transparentes permitem a passagem ordenada dos raios de luz, dando a possibilidade de ver os corpos com nitidez. Exemplos: vidro polido, ar atmosférico, etc.\n
+            Nos meios translúcidos a luz também se propaga, porém de maneira desordenada, fazendo com que os corpos sejam vistos sem nitidez. Exemplos: vidro fosco, plásticos, etc.\n
+            Os meios opacos são aqueles que impedem completamente a passagem de luz, não permitindo a visão de corpos através dos mesmos. Exemplos: portas de madeira, paredes de cimento, pessoas, etc.\n
+        ]]>
+    </string>
+
+    <!-- História -->
+    <string name="egito">
+        <![CDATA[
+        Introdução\n
+            \t\tA civilização egípcia antiga desenvolveu-se no nordeste africano (margens do rio Nilo) entre 3.200 a.C. (unificação do norte e sul) a 32 a.C. (domínio romano).\n\n
+
+        A importância do rio Nilo\n
+            \t\tComo a região é formada por um deserto (Saara), o rio Nilo ganhou uma extrema importância para os egípcios. O rio era utilizado como via de transporte (através de barcos) de mercadorias e pessoas. As águas do rio Nilo também eram utilizadas para beber, pescar e fertilizar as margens, nas épocas de cheias, favorecendo a agricultura.\n\n
+
+        Sociedade Egípcia\n
+            \t\tA sociedade egípcia estava dividida em várias camadas, sendo que o faraó era a autoridade máxima, chegando a ser considerado um deus na Terra. Sacerdotes, militares e escribas (responsáveis pela escrita) também ganharam importância na sociedade. Esta era sustentada pelo trabalho e impostos pagos por camponeses, artesãos e pequenos comerciantes. Os escravos também compunham a sociedade egípcia e, geralmente, eram pessoas capturadas em guerras. Trabalhavam muito e nada recebiam por seu trabalho, apenas água e comida.\n\n
+
+        Escrita no Egito Antigo\n
+            \t\tA escrita egípcia também foi algo importante para este povo, pois permitiu a divulgação de ideias, comunicação e controle de impostos. Existiam duas formas principais de escrita: a escrita demótica (mais simplificada e usada para assuntos do cotidiano) e a hieroglífica (mais complexa e formada por desenhos e símbolos). As paredes internas das pirâmides eram repletas de textos que falavam sobre a vida do faraó, rezas e mensagens para espantar possíveis saqueadores. Uma espécie de papel chamado papiro, que era produzido a partir de uma planta de mesmo nome, também era utilizado para registrar os textos.\n
+            \t\tOs hieróglifos egípcios foram decifrados na primeira metade do século XIX pelo linguista e egiptólogo francês Champollion, através da Pedra de Roseta.
+        ]]>
+    </string>
+
+    <string name="feudalismo">
+        <![CDATA[
+            \t\tO Feudalismo foi uma organização econômica, política, social e cultural baseada na posse da terra, que predominou na Europa Ocidental durante a Idade Média.\n
+
+            \t\tO Feudalismo teve origem no século V, com a crise do Império Romano, em razão da insegurança gerada pelas invasões dos povos nórdicos.\n\n
+
+            CARACTERISTICAS DO FEUDALISMO\n
+
+            Sociedade Feudal\n
+            \t\tA sociedade no feudalismo era chamada de sociedade estamental porque era composta por camadas sociais estanques.\\n
+
+            \t\tNão existia mobilidade social, ou seja, passar de um estamento social para outro era praticamente impossível.\n
+
+            \t\tA sociedade feudal baseava-se na existência de três estamentos sociais – nobreza, clero e servos.\n\n
+
+            Nobreza\n
+            \t\tNo topo da hierarquia social estava o rei, que concentrava pouco poder político, que era dividido entre ele e os senhores feudais.\n
+
+            \t\tA nobreza era proprietária de terras e também chamada de senhores feudais. Este exercia poder absoluto em seus domínios, aplicava as leis, concedia privilégios, administrava a justiça, declarava a guerra e fazia a paz.\n\n
+
+            Clero\n
+            \t\tA Igreja se tornou a mais poderosa instituição feudal, pois era proprietária de vastas extensões de terra.\n
+
+            \t\tSegundo ela, cada membro da sociedade tinha uma função a cumprir em sua passagem pela terra. A função do nobre era proteger militarmente a sociedade, a do clero rezar e do servo devia trabalhar.\n\n
+
+            Servos\n
+            \t\tO trabalho na sociedade feudal estava fundamentado na servidão. Os trabalhadores estavam presos a terra e subordinados a uma série de obrigações desde impostos e serviços.
+        ]]>
+    </string>
+
+    <string name="guerras">
+        <![CDATA[
+            \t\tGuerra Mundial é um conflito capaz de afetar todos os países de alguma maneira. Nunca houve de fato uma guerra com envolvimento militar de todos os países, mas o envolvimento de países de preponderância no planeta gera conseqüências econômicas e políticas que afetam a ordem geral.\n
+            \t\tO conceito de “Guerra Mundial” é algo que carrega em si o estigma da contemporaneidade, a expressão é bem aplicada para os tempos de globalização. A humanidade já passou por inúmeras guerras, de pequena ou grande escala, desde a História Antiga até os dias atuais, mas os momentos da história humana determinaram a repercussão dos conflitos. É claro que toda guerra tem como consequência invariável os prejuízos humanos, econômicos, sociais e políticos, mas a dimensão que assumem está muito atrelada ao seu momento histórico.\n\n
+        Primeira Guerra Mundial\n
+            \t\tNo final do século XIX e no começo do século XX a Europa vivia um momento identificado como Belle Époque, por causa da grande modernização que se dava. Entretanto um clima pesado por conta da tardia unificação da Itália e da Alemanha, que entraram na corrida imperialista por colônias, pairava sobre a Europa. A tensão que se cria rompe em 1914 uma guerra com implicações sem precedentes na história da humanidade. A Europa toda é envolvida ou sente as consequências diretamente do conflito, além de territórios espalhados por outros continentes que eram colonizados por países europeus. O conflito coloca um fim no grande desenvolvimento que vinha ocorrendo na Europa e só se encerra em 1918. Após a guerra deu-se o nome para o grandioso conflito de Primeira Guerra Mundial, por causa das implicações que o acontecimento gerou em todos os continentes.\n\n
+
+        Segunda Guerra Mundial\n
+            \t\tAs consequências da guerra foram enormes e ainda deixaram no ar o ambiente tenso que permitiria outro confronto de escala global alguns anos depois, a Segunda Guerra Mundial. Em 1939 uma nova guerra eclode como fruto das questões e instabilidades mal resolvidas no conflito anterior. Mas dessa vez a abrangência da guerra é maior ainda, os continentes todos tem participação maior. Em 1945 a guerra acaba em decorrência de uma nova tecnologia que deixaria a humanidade em estado de tensão para sempre, as armas nucleares. A capacidade destrutiva de uma bomba atômica deixou claro que se um novo conflito de escopo mundial envolvendo armamentos de tal tipo acontecesse a vida humana estaria fadada a desaparecer da face da terra.
+        ]]>
+    </string>
+
+    <string name="hist_bras">
+        <![CDATA[
+           \t\t A História do Brasil tem seu início comumente apontado a partir da chegada dos portugueses, quando Pedro Álvares Cabral e sua esquadra atracaram na região de Porto Seguro, em 1500. Porém, os portugueses não foram os primeiros seres humanos a chegarem nessa região, pois existiam já inúmeras sociedades indígenas no local.\n
+            \t\tNesse sentido, é necessário apontar que a História do Brasil é anterior à chegada dos europeus ao país, sendo formada pelas ações desses indígenas ao longo do tempo. Vários estudos vêm sendo realizados com o intuito de registrar a forma como é contada essa história pelos próprios indígenas.\n
+            \t\tIsso ocorre porque a historiografia brasileira sempre privilegiou o estudo da História do Brasil depois da chegada de Cabral. A divisão da história do país foi feita levando em consideração as formas políticas adotadas na organização da população e do território. Dessa forma, temos o Brasil Colônia, período de conquista dos portugueses no Novo Mundo e, posteriormente, temos o Brasil Império, momento em que os descendentes da coroa portuguesa que haviam ficado no país tornaram a colônia independente e criaram um novo Império.\n
+            \t\tAs classes dominantes do país perceberam que o Império não era mais o formato de organização política necessário ao país após o fim da escravidão. Frente a isso, com o exército à frente, derrubaram o imperador e deu-se início ao Brasil República. Na seção de História do Brasil, do Mundo Educação, há ainda outras divisões do período republicano da história do país, tais como Governos Militares e Brasil Atual.\n
+            \t\tOs artigos pretendem, dentro dessas divisões, mostrar a diversificada história do país desde antes da chegada dos portugueses, da formação da sociedade, passando inclusive pela constituição da desigualdade social.
+        ]]>
+    </string>
+
+    <string name="politica">
+        <![CDATA[
+            \t\tA palavra “política” provém do grego “politéia”. Tal palavra era usada para se referir a tudo relacionado a polis (Cidade-estado) e à vida em coletividade. Portanto, podemos chegar a um ponto em comum ao afirmar que a política está relacionada diretamente com a vida em sociedade, no sentido de fazer com que cada indivíduo expresse suas diferenças e conflitos sem que isso seja transformado em um caos social.\n
+            \t\tEmbora se afirme que gregos e romanos tenham criado a política, com destaque para a obra “Política” de Aristóteles, não podemos negar a existência de relações de poder e autoridade em civilizações anteriores. De fato, gregos e romanos desenvolveram as características de autoridade e poder no sentido político.\n
+            \t\tDe certa forma, a política surgiu para garantir a estabilidade social. O agente máximo que garante essa estabilidade é o Estado. O poder político, exercido pelo mesmo, está diretamente relacionado ao direito de coerção e uso legítimo da força física. Assim, para garantir os interesses da sociedade em geral, o Estado pode, de forma única, utilizar a forma coercitiva. Em sua obra “O Príncipe”, Maquiavel afirmou que o que move a política é a luta pela conquista e pela manutenção do poder, além disso, segundo ele, os fins deveriam justificam os meios, isto é, para a finalidade da ordem, soberania e bem-estar social, o Estado poderia usar a força física de forma legítima.\n
+            \t\tA ciência política é uma área do pensamento destinada a estudar os modelos de organização e funcionamento estatal. No âmbito acadêmico, essa área do conhecimento se institucionalizou particularmente nos Estados Unidos, com desdobramentos para a Europa Ocidental. Após a crise das democracias representativas, a difusão da política como uma ciência ocorreu em vários países do Terceiro Mundo.
+        ]]>
+    </string>
+
+    <!-- Geografia  -->
+    <string name="geo_bra">
+        <![CDATA[
+        RELEVO
+        \t\tO relevo brasileiro pode ser classificado da seguinte forma:\n\n
+
+        \t\t- Planalto: formado a partir de erosões eólicas (pelo vento) ou pela água\n
+        \t\t- Planície: como o próprio nome já diz são áreas planas e baixas. As principais planícies brasileiras são as planícies Amazônica, do Pantanal e Litorânea\n
+        \t\t- Depressões: resultado de erosões\n\n
+
+        CLIMA\n
+
+        \t\tSão todas as variações do tempo de um lugar.\n
+
+        \t\tAtravés do conceito de massas de ar, podemos entender todas as mudanças no comportamento dos fenômenos atmosféricos, pois elas atuam sobre as temperaturas e índices pluviométricos nas várias regiões do Brasil. Existem massas de ar polares, equatoriais, oceânicas e continentais.\n
+
+        \t\tExiste uma certa movimentação de massas onde cada uma vai empurrando a outra, passando a ocupar o seu lugar. Toda essa dinâmica é responsável pelas alterações do tempo de uma determinada região.\n
+
+        \t\tQuando duas massas de ar se encontram temos o que chamamos de frente.\n\n
+
+        \t\tNo território brasileiro ocorrem as seguintes massas de ar:\n
+
+        \t\t- MASSA EQUATORIAL ATLÂNTICA (mEa): quente e úmida\n
+        \t\t- MASSA EQUATORIAL CONTINENTAL (mEc): quente e muito úmida\n
+        \t\t- MASSA TROPICAL ATLÂNTICA (mTa): quente e úmida\n
+        \t\t- MASSA TROPICAL CONTINENTAL (mTc): quente e seca\n
+        \t\t- MASSA POLAR ATLÂNTICA (mPa): fria e úmida\n\n
+
+        OS CLIMAS DO BRASIL\n\n
+
+        Clima Equatorial (úmido e semi-úmido): quente e úmido\n
+
+            \t\t- pouca variação de temperatura durante o ano\n
+            \t\t- compreende a Amazônia brasileira\n
+            \t\t- é um clima dominado pela mEc em quase toda sua extensão e durante todo o ano. Na parte litorânea da Amazônia existe um pouco de influência da mEa, e algumas vezes, durante o inverno a frente fria atinge o sul e o sudoeste dessa região, ocasionando uma queda da temperatura chamada friagem\n\n
+
+        Clima Litorâneo Úmido\n
+            \t\t- influenciado pela mTa\n
+            \t\t- compreende as proximidades do litoral desde o Rio Grande do Norte até a parte setentrional do estado de São Paulo.\n\n
+
+        Clima Tropical (alternadamente úmido e seco)\n
+            \t\t- é o clima predominante na maior parte do Brasil\n
+            \t\t- é um clima quente e semi-úmido com uma estação chuvosa (verão) e outra seca ( inverno)\n\n
+
+        Clima Semiárido\n
+            \t\t- sertão do nordeste\n
+            \t\t- clima quente mais próximo do árido\n
+            \t\t- as chuvas não são regulares e são mal distribuídas\n\n
+
+        Clima Subtropical\n
+            \t\t- abrange a porção do território brasileiro ao sul do Trópico de Capricórnio.\n
+            \t\t- Predomina a mTa, provocando chuvas abundantes, principalmente no verão. No inverno há o predomínio das chuvas frontais\n
+            \t\t- Apesar de chover o ano todo, há uma maior concentração no verão
+        ]]>
+    </string>
+
+    <string name="geografia_geral">
+        <![CDATA[
+            Regionalização do mundo:\n \t\tRegionalizar significa dividir o mundo em regiões. Essas regiões podem ser divididas com base em características físicas (relevo, fauna, flora, etc.) e socioculturais (riqueza, acesso à cultura e ao conhecimento, religião, etc.), assim tornando o contexto de uma possível investigação mais claro. Em termos socioeconômicos, as principais divisões entre os países são: desenvolvidos X subdesenvolvidos, centrais X periféricos, ricos x pobres e 1º, 2º ou 3º mundo.\n
+            \n
+            Cidadania:\n \t\tCidadania é o conjunto de direitos e deveres que permitem a uma pessoa ter dignidade e ser um membro ativo de sua sociedade. Cidadania Formal é um termo que representa a relação de nacionalidade. Isto é, em qual nação um determinado indivíduo tem cidadania?\n
+            \n
+            Território:\n \t\tÉ geralmente definido como um espaço assimilado e perpetuado por uma relação de poder. Na prática, territórios são espaços delimitados com fronteiras, mesmo que essas não estejam claras. A relação de poder que define um território pode ser de origens econômica, biológica, política, social, cultural, entre outras.\n
+            \n
+            Limites:\n \t\tLimite representa uma divisão que pode ser observada fisicamente e cujo papel é dividir regiões. Limites que separam regiões, de maneira acordada por ambas as partes, denominam-se traçados. Limites Naturais são elementos da natureza, como montanhas e rios, que servem como um traçado. Limites artificiais são aqueles criados pelo homem, como a muralha da china ou o já derrubado Muro de Berlim.\n
+            \n
+            Fronteiras:\n \t\tFronteiras são conceitos mais abstratos que limites, não significando necessariamente os pontos que separam regiões. Fronteiras são, acima de tudo, regiões definidas dinamicamente, por processos de manifestação humana, como religião, cultura e conflitos.\n
+            \n
+            Fronteiras artificiais:\n \t\tSão fronteiras definidas por imposição, como ocorreu com a colonização da África e das Américas por europeus.\n
+            \n
+            Estado:\n \t\tConjunto de instituições públicas que governam um país, idealmente atendendo a sua população. É o estado que exerce poder sobre o território de um país.\n
+            \n
+            País:\n \t\tTudo que há em uma nação, inclusive o Estado e as características ambientais.\n
+            \n
+            Nação:\n \t\tRemete um sentimento nacionalista, de pertencimento de um povo ao seu país.\n
+            \n
+            Espaço rural:\n \t\tÉ todo local não-urbano, onde frequentemente ocorre a agropecuária e o extrativismo. Atualmente, está ocorrendo uma mesclagem de características tipicamente urbanas com propriedades rurais: está se tornando comum a plantação em ambientes urbanos e a presença de estabelecimentos como clínicas de relaxamento e centros de pesquisa em regiões rurais.\n
+            \n
+            IBGE:\n \t\tSigla que significa Instituto Brasileiro de Geografia e Estatística. Criado em 1936 durante o Governo Vargas, o IBGE tem o trabalho de coletar, armazenar e processar dados e informações sobre o Brasil e sua população. A cada 10 anos, o instituto realiza uma pesquisa de censo demográfico, revelando o total populacional do país e o perfil do brasileiro médio.\n
+            \n
+            Organização das Nações Unidas (ONU):\n \t\tÓrgão internacional, criado logo após a segunda guerra mundial (24 de outubro de 1945), que tem como objetivo garantir a paz e o desenvolvimento no mundo. Seus principais órgãos são: Conselho de Segurança, Assembléia Geral, Secretariado, Conselho Econômico e Social e a Corte Internacional de Justiça.
+        ]]>
+    </string>
+
+    <string name="geopolitica">
+        <![CDATA[
+            \t\tGeopolítica é a prática, arte ou disciplina que se concentra na utilização de poder político sob determinado território. Numa visão mais objetiva, a geopolítica compreende as análises de geografia, história e ciências sociais mescladas com teoria política em vários níveis, indo do nível referente desde o Estado até o internacional-mundial.\n\n
+
+            \t\tO cientista político sueco Rudolf Kjellén cunhou o termo "geopolítica" no início do século XX, baseado na obra do geógrafo alemão Friedrich Ratzel "Politische Geographie" (Geografia Política), de 1897.\n\n
+
+            \t\tImportante notar que a geopolítica surgida nos primeiros anos do século XX difere bastante da matéria atual abordada pela geopolítica. O primeiro fruto de destaque desta então nova área do conhecimento surge em 1904, no artigo que Halford John Mackinder escreveu para a revista da Sociedade Geográfica Real, da Grã-Bretanha. O artigo intitulado "The Geographical Pivot of History" trazia o revolucionário conceito do "Heartland". Em outras palavras, foi a primeira vez em que geografia e política foram uilizados em níveis equivalentes para fazer uma análise do globo e do comportamento dos povos que o habitam.\n\n
+
+            \t\tA tradução um tanto livre de "heartland" seria "terra central" ou "terra nuclear'' (de núcleo). Mackinder enxergava no centro da Eurásia (na Federação Russa) o núcleo político e geográfico do globo, e entendia ser esta região de extrema importância por sua biodiversidade e recursos naturais. Seria através do controle desta região que uma nação poderia desenvolver tanto infantaria como marinha e estabelecer o controle do que o autor chamava de "Ilha Mundo" (Eurásia e África). O domínio da Ilha Mundo, por conseguinte, levaria ao controle dos destinos do planeta.\n\n
+            \t\tMais ou menos na mesma época as teorias do almirante americano Alfred Thayer Mahan, em especial aquelas contidas em seu livro de 1890, "The Influence of Sea Power upon History 1660-1783" também gozaram de grande popularidade. Mahan concluíra que a nação que controlasse as principais rotas marítimas do planeta teria o poder político em suas mãos.\n\n
+
+            \t\tAmbas teorias teriam influência no comportamento das nações de destaque no jogo político mundial durante todo o século XX. O Estados Unidos claramente seguiram os ensinos de Mahan, fortalecendo sua marinha, e estabelecendo bases navais em vários países estratégicos. Já a Grã-Bretanha seguiu de certa forma a teoria de Mackinder, aliando-se à Rússia (então União Soviética) nas duas guerras mundiais.\n\n
+
+            \t\tO Brasil também apoiou-se em decisões oriundas dos estudos geopolíticos, sendo exemplos marcantes a transferência da capital federal do Rio de Janeiro (localizado em área litorânea, de abordagem mais fácil em um possível conflito) para Brasília, no centro do território. Ainda como destaque merecem menção a política brasileira e sua presença no continente Antártico, a delimitação do mar territorial e o projeto "Calha Norte", de ocupação militar da região norte do país.\n\n
+
+            \t\tAo final da Segunda Guerra Mundial o estudo da geopolítica entrou em decadência na maioria das universidades americanas e europeias, voltando com força, porém, na década de 80 do século passado, influenciado primordialmente pelas mudanças no bloco socialista de paises. A atual forma da ciência preconiza uma postura crítica e de análise severa por parte do analista e de formação de diferentes visões das relações globais humanas.
+        ]]>
+    </string>
+
+    <!-- Atualidades -->
+    <string name="atualidades_t">
+        <![CDATA[
+        Vice-presidente dos EUA defende “tolerância zero” contra imigração ilegal\n
+        \t\tO vice-presidente dos Estados Unidos, Mike Pence, defendeu a política de “tolerância zero” contra a imigração ilegal para o seu país e pediu para que as pessoas “não arrisquem a vida” tentando ingressar em solo norte-americano.\n
+        \t\t“Assim com os EUA respeitam suas fronteiras e soberania, peço que respeitem a nossa. Como diz o presidente Donald Trump, sem fronteiras não há país”, afirmou, fazendo referência específica a países da América Central.\n\n
+
+        Rainha Elizabeth promulga lei que confirma saída do Reino Unido da UE\n
+        \t\tNesta terça-feira (26), foi promulgada a lei de saída do Reino Unido da União Europeia (UE), processo que ficou conhecido como Brexit (união das palavras Britain e Exit, que significam Grã-Bretanha e saída, em inglês).\n
+        \t\tA aprovação da lei torna irreversível o Brexit, que está previsto para acontecer oficialmente às 23h (horário local) do dia 29 de março de 2019.\n\n
+
+        Putin e Trump se reunirão em Helsinque em julho\n
+        \t\tO presidente dos Estados Unidos, Donald Trump, e o presidente da Rússia, Vladimir Putin, irão se reunir no dia 16 de julho em Helsinque, informaram a Casa Branca e o Kremlin nesta terça-feira (26).\n
+        \t\t“Os dois líderes irão discutir as relações entre os Estados Unidos e a Rússia e uma série de questões de segurança nacional”, disse a Casa Branca em comunicado.\n\n
+
+        Pequim, Tóquio e Seul se unem para aplicar Acordo de Paris na região
+        \t\tOs ministros de Meio Ambiente da China, do Japão e da Coreia do Sul se comprometeram a implementar o Acordo de Paris contra a mudança climática e a Agenda 2030 da Organização das Nações Unidas (ONU).\n\n
+
+        Movimentos sociais protestam contra política migratória de Trump\n
+        \t\tNesta quarta-feira (27), manifestantes na maioria de origem latina se reuniram perto da Casa Branca, em Washington, para expressar o descontentamento com a política migratória do presidente dos Estados Unidos, Donald Trump.\n
+        \t\tCom camisetas, nas quais lia-se #KeepFamiliesTogether (mantenham as famílias unidas) e cantando frases como “o povo unido jamais será vencido”, várias crianças compareceram ao ato.\n\n
+
+        Encontro entre Trump e Kim Jong-un é destaque na imprensa internacional\n
+        \t\tNesta semana, o presidente norte-americano, Donald Trump, e o líder da Coreia do Norte, Kim Jong-un, se reuniram para discutir, entre outros assuntos, como a estabilização das relações diplomáticas entre os países e a sobrevivência do regime de Pyongyang, o fim do programa nuclear coreano.\n
+        \t\tO encontro foi destaque em diversos portais de notícias e jornais ao redor do mundo.\n\n
+
+        Lei que acaba com a neutralidade da rede nos EUA entra em vigor\n
+        \t\tNesta segunda-feira (11), a lei que acaba com a neutralidade de rede nos Estados Unidos entrou em vigor.\n
+        \t\tA medida permite que os provedores de internet possam, entre outras coisas, bloquear ou diminuir a velocidade de acesso a determinados sites.\n\n
+
+        Temer e Mario Abdo Benítez discutem construção de pontes entre Brasil e Paraguai\n
+        \t\tMichel Temer e o presidente do Paraguai, Mario Abdo Benítez, discutiram nesta segunda-feira (11) a construção de pontes entre o Paraguai e o Brasil e a cooperação para o combate ao crime organizado, narcotráfico e lavagem de dinheiro.\n
+        \t\tA construção das pontes é uma demanda antiga do país vizinho.\n\n
+
+        Surto de ebola no Congo foi estabilizado, segundo a OMS\n
+        \t\tO surto de ebola na República Democrática do Congo foi estabilizado, segundo o diretor da Organização Mundial da Saúde (OMS), Tedros Adhanom.\n
+        \t\tDurante uma visita à região, ele afirmou que a situação melhorou no país e a coordenação com o governo e as demais organizações envolvidas está evoluindo bem.\n\n
+
+        Em 15 meses, Colômbia recebe mais de 1 milhão de pessoas da Venezuela\n
+        \t\tSegundo fontes oficiais em Bogotá, mais de um milhão de pessoas migraram da Venezuela à Colômbia nos últimos 15 meses. Além dos venezuelanos, cerca de 250 mil cidadãos colombianos que estavam morando no país também retornaram para casa durante este período.\n\n
+
+        Irã ameaça retomar programa nuclear\n
+        \t\tO Irã está disposto a retomar seu programa nuclear e aumentar sua capacidade de enriquecer urânio. O líder do país, Ayatollah Khamenei, disse que está preparado para retomar as atividades, caso o acordo nuclear de 2015 falhe.\n
+        \t\tNo início do mês passado, o presidente norte-americano Donald Trump anunciou a saída do acordo. Desde então, líderes europeus se esforçam para mantê-lo.\n\n
+
+        ONU critica apreensão de crianças separadas dos pais nos EUA\n
+        \t\tCentenas de crianças da América Central foram detidas na fronteira sul dos Estados Unidos e separadas dos pais desde outubro do ano passado.\n
+        \t\tA denúncia foi feita nesta terça-feira (5) pelo Alto Comissariado das Nações Unidas para os Direitos Humanos (Acnudh).\n\n
+
+        Líder da Coreia do Norte se organiza para o encontro com Trump\n
+        \t\tCom três generais de seu núcleo de poder afastados, o ditador norte-coreano Kim Jong-un começou a arrumar as malas para o encontro com o presidente Donald Trump, em Cingapura, na terça-feira da semana que vem.\n
+        \t\tUm dos generais demitidos, Ri Myong-su, chefe do Estado-Maior, foi confidente de Jong-il, o pai de Kim. Os outros dois eram o chefe da Defesa e o diretor do birô político das Forças Armadas. Essa reorganização em Pyongyang foi noticiada em Seul, na vizinha Coreia do Sul, filtrada por serviços secretos.\n\n
+
+        Poluição do plástico é desafio para o Dia Mundial do Meio Ambiente\n
+        \t\tTodos os anos, desde 1972, 5 de junho é celebrado como o Dia Mundial do Meio Ambiente. A Organização das Nações Unidas (ONU) anualmente escolhe um tema e este ano o mote é Beat Plastic Pollution (Combater a Poluição Plástica, em tradução livre).\n
+        \t\tA poluição causada pelo descarte de objetos de plástico é um dos grandes desafios da atualidade. De acordo com a ONU, são necessários pelo menos 450 anos para que uma garrafa de plástico se decomponha e desapareça do meio ambiente.\n
+
+        De 163 países, o Brasil é o 106º no ranking da paz mundial\n
+        \t\tO novo relatório Global Peace Index 2018 (Índice Global de Paz 2018, em tradução livre), publicado na quinta-feira (6), avalia a paz em 163 países abrangendo 99,7% da população mundial.\n
+        \t\tO Brasil, que ocupa a 106ª posição e sofre com altos índices de criminalidade e corrupção, obteve uma leve melhora no ranking em relação a 2017, quando estava em 108º. O mundo hoje tem o pior índice de paz da última década.
+        ]]>
+    </string>
+
+    <!-- Outras strings -->
+    <string name="title_activity_gramatica_alarme">GramaticaAlarme</string>
+    <string name="respostaPop">Sua Resposta</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="suaResposta">Sua Resposta</string>
+
 </resources>

@@ -6,6 +6,8 @@
     <uses-permission android:name="android.permission.READ_PROFILE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <supports-screens
         android:anyDensity="true"
@@ -22,32 +24,53 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".agendaSP"></activity>
         <activity android:name=".Home" />
-        <activity android:name=".splash_screen">
+        <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".feed"
-            android:parentActivityName=".Home"/>
-        <activity android:name=".mensagens"
-            android:parentActivityName=".Home"/>
-        <activity android:name=".mapa_homofobia"
-            android:parentActivityName=".Home"/>
-        <activity android:name=".before_sos"
-            android:parentActivityName=".Home"/>
+        <activity
+            android:name=".desabafa"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".acitivity.mensagens"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".perfil"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".denuncia"
+            android:parentActivityName=".Home" />
+        <activity android:name=".before_denuncia" />
         <activity
             android:name=".configuracoes"
             android:label="@string/title_activity_configuracoes"
-            android:parentActivityName=".Home"/>
-        <activity android:name=".sobre"
-            android:parentActivityName=".Home"/>
-        <activity android:name=".denunciar"
-            android:parentActivityName=".before_sos"/>
-        <activity android:name=".fazer_denuncia"
-            android:parentActivityName=".before_sos"></activity>
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".Sobre"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".acitivity.conversas"
+            android:parentActivityName=".acitivity.mensagens" />
+        <activity android:name=".acitivity.configuracoes_mensagens" />
+        <activity
+            android:name=".acompanhar_denuncias"
+            android:parentActivityName=".before_denuncia" />
+        <activity android:name=".acitivity.cadastro" />
+        <activity
+            android:name=".acitivity.chat"
+            android:parentActivityName=".acitivity.mensagens"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ivan.appoc.acitivity.mensagens" />
+        </activity>
+        <activity android:name=".mapeamentoHomo" />
+        <activity android:name=".denunciar_usuario" />
     </application>
 
 </manifest>

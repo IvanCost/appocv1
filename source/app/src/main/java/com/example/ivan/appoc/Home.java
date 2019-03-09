@@ -153,7 +153,7 @@ public class Home extends AppCompatActivity {
         //Itens do Drawer
         final PrimaryDrawerItem nav_perfil = new PrimaryDrawerItem().withIdentifier( 1 ).withName( "Meu Perfil" ).withIcon(R.drawable.man);
         final PrimaryDrawerItem nav_denuncia = new PrimaryDrawerItem().withIdentifier( 2 ).withName( "Denuncie").withIcon(R.drawable.denunciar);
-        final PrimaryDrawerItem nav_mapaHomo = new PrimaryDrawerItem().withIdentifier( 2 ).withName( "Mapa da Homofobia").withIcon(R.drawable.mapeamento);
+        final PrimaryDrawerItem nav_mapaHomo = new PrimaryDrawerItem().withIdentifier( 2 ).withName( "Mapa da LGBTQFobia").withIcon(R.drawable.mapeamento);
         final PrimaryDrawerItem nav_agendaSP = new PrimaryDrawerItem().withIdentifier( 1 ).withName( "Agenda São Paulo" ).withIcon(R.drawable.agenda);
         final PrimaryDrawerItem nav_atendimento = new PrimaryDrawerItem().withIdentifier( 2 ).withName( "Agendamento de Atendimento" ).withIcon(R.drawable.helpdoctor);
         final PrimaryDrawerItem nav_chat = new PrimaryDrawerItem().withIdentifier( 2 ).withName( "Chat" ).withIcon(R.drawable.chatgay);
@@ -184,7 +184,7 @@ public class Home extends AppCompatActivity {
                         nav_agendaSP,
                         new DividerDrawerItem(),
                         nav_atendimento,
-                        new DividerDrawerItem(),
+                        /*new DividerDrawerItem(),
                         nav_chat,
 
                         /*new DividerDrawerItem(),
@@ -224,7 +224,7 @@ public class Home extends AppCompatActivity {
 
                         else if (drawerItem == nav_logout) deslogarUsuario(view);
                         else if (drawerItem == nav_config) abrirTelaConfiguracoes();
-                        //textView.setText( "Você clicou em: " + ((Nameable) drawerItem).getName().getText( MainActivity.this ) );
+                        //textView.setText( "Você clicou em: " + ((Nameable) drawerItem).getName().getText( CalendarioMain.this ) );
 
                         return false;
                     }

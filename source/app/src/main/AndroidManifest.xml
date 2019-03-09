@@ -24,8 +24,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".agendaSP"></activity>
+        <activity android:name=".mapa"></activity>
+        <activity android:name=".agendaSP" />
         <activity android:name=".Home" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAUvpvX5j2KDe3OqSJscGJDpPVq21yD99o" />
+
         <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -53,6 +59,7 @@
         <activity
             android:name=".Sobre"
             android:parentActivityName=".Home" />
+        <activity android:name=".mapeamentoHomo"/>
         <activity
             android:name=".acitivity.conversas"
             android:parentActivityName=".acitivity.mensagens" />
@@ -69,7 +76,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.ivan.appoc.acitivity.mensagens" />
         </activity>
-        <activity android:name=".mapeamentoHomo" />
         <activity android:name=".denunciar_usuario" />
     </application>
 
